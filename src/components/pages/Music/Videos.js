@@ -45,7 +45,7 @@ const Videos = () => {
                     <Col>
                         <div className="descriptions">
                             <div className="apologize-video">
-                                <p>Live performance video recorded at Lakehouse Recording Studios. Featuring Genevieve Nelson on bass, Rob Tanico on guitar and background vocals, and Steve Honoshowsky on drums.</p>
+                                <p>Live performance video recorded at Lakehouse Recording Studios. Featuring Genevieve Nelson on bass, Rob Tanico on guitar and background vocals, and K Kiatpreecha on drums.</p>
                             </div>
                             <div className="here-at-last-video">
                                 <p>Music Video by TG Gainey Productions as part of his Picks-A-Lation Creation Series</p>
