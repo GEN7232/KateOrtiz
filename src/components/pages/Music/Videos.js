@@ -44,6 +44,7 @@ const Videos = () => {
                 </Col>
                     <Col>
                         <div className="descriptions">
+                            <br></br>
                             <div className="apologize-video">
                                 <p>Live performance video recorded at Lakehouse Recording Studios. Featuring Genevieve Nelson on bass, Rob Tanico on guitar and background vocals, and K Kiatpreecha on drums.</p>
                             </div>
@@ -53,6 +54,7 @@ const Videos = () => {
                             <div className="rotten-live">
                                 <p>Acoustic version of "Rotten" performed live at The Chubby Pickle in Atlantic Highlands, NJ.</p>
                             </div>
+                            <br></br>
                             <div className="stay">
                                 <p>Acoustic cover of "Stay" by Lisa Loeb.</p>
                             </div>
