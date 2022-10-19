@@ -1,4 +1,5 @@
 import Container from 'react-bootstrap/Container';
+import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -7,9 +8,11 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar className='width' bg="primary" variant="dark">
+      <Navbar collapseOnSelect expand="sm" bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="/">Kate Ortiz</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/contact">Contact</Nav.Link>
@@ -22,6 +25,7 @@ function ColorSchemesExample() {
               <NavDropdown.Item className="dropdown" href="/videos">Videos</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
 

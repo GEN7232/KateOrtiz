@@ -2,13 +2,13 @@
     color: white;
 }
 
-body {
+/* body {
     color: white
-}
+} */
 
-.navtext {
+/* .navtext {
     color: white
-}
+} */
 
 @media screen and (max-width: 320px) {
     .width {
