@@ -12,7 +12,7 @@ const Videos = () => {
                 <h4>Subscribe to her <a href="https://www.youtube.com/channel/UCBZIeGh0Am7WLYvNBfbK0Nw">
                     Youtube Channel</a></h4>
             </header>
-            <Container>
+            <Container className="desktop">
                 <Row>
                 <Col xs={6} className="video-div">
                     <div className="videos">
@@ -63,6 +63,30 @@ const Videos = () => {
                         </div>
                     </Col>
                 </Row>
+            </Container>
+            <Container className="mobile">
+                <Col>
+                <div className="videos">
+                        <h2>"Apologize" Live</h2>
+                        <br></br>
+                        <div className="player-wrapper">
+                            <ReactPlayer className="react-player-apologize" url="https://www.youtube.com/watch?v=Z2fV8bj53C8" height="100%" width= "100%"/>
+                        </div>
+                        <br></br>
+                        <p className="center">Live performance video recorded at Lakehouse Recording Studios. Featuring Genevieve Nelson on bass, Rob Tanico on guitar and background vocals, and K Kiatpreecha on drums.</p>
+                    </div>
+                    
+                    <div className="videos">
+                        <h2>"Here at Last" Music Video</h2>
+                        <br></br>
+                        <div className="player-wrapper">
+                            <ReactPlayer className="react-player-here" url="https://www.youtube.com/watch?v=ceSz-IH-mR8" height="100%" width="100%" />
+                        </div>
+                        <br></br>
+                            <p className="center">Music Video by TG Gainey Productions as part of his Picks-A-Lation Creation Series</p>
+                    </div>
+          
+                </Col>
             </Container>
         </div>
     )

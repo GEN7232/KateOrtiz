@@ -572,3 +572,7 @@ a:hover {
 .tidal-footer {
     margin-top: -20%;
 }
+
+.center {
+    text-align: center;
+}
