@@ -9,3 +9,10 @@ body {
 .navtext {
     color: white
 }
+
+@media screen and (max-width: 320px) {
+    .width {
+        width: 100%
+    }
+};
+    

@@ -29,7 +29,7 @@ const Videos = () => {
                             <ReactPlayer className="react-player-here" url="https://www.youtube.com/watch?v=ceSz-IH-mR8" height="100%" width="100%" />
                         </div>
                     </div>
-                    <div className="videos">
+                    {/* <div className="videos">
                         <h2>"Rotten" Acoustic Live</h2>
                         <div className="player-wrapper"></div>
                             <ReactPlayer className="react-player-rotten" url="https://www.youtube.com/watch?v=AScKm-A3S20" height="40%" width="37"/>
@@ -40,7 +40,7 @@ const Videos = () => {
                         <div className="player-wrapper">
                             <ReactPlayer className="react-player-stay" url="https://www.youtube.com/watch?v=AKxk16hSosw" height="100%" width="100%" />
                         </div>
-                    </div>
+                    </div> */}
                 </Col>
                     <Col>
                         <div className="descriptions">
@@ -48,16 +48,18 @@ const Videos = () => {
                             <div className="apologize-video">
                                 <p>Live performance video recorded at Lakehouse Recording Studios. Featuring Genevieve Nelson on bass, Rob Tanico on guitar and background vocals, and K Kiatpreecha on drums.</p>
                             </div>
+                            <br></br>
+                            <br></br>
                             <div className="here-at-last-video">
                                 <p>Music Video by TG Gainey Productions as part of his Picks-A-Lation Creation Series</p>
                             </div>
-                            <div className="rotten-live">
+                            {/* <div className="rotten-live">
                                 <p>Acoustic version of "Rotten" performed live at The Chubby Pickle in Atlantic Highlands, NJ.</p>
                             </div>
                             <br></br>
                             <div className="stay">
                                 <p>Acoustic cover of "Stay" by Lisa Loeb.</p>
-                            </div>
+                            </div> */}
                         </div>
                     </Col>
                 </Row>

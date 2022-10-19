@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar bg="primary" variant="dark">
+      <Navbar className='width' bg="primary" variant="dark">
         <Container>
           <Navbar.Brand href="/">Kate Ortiz</Navbar.Brand>
           <Nav className="me-auto">
