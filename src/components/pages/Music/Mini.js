@@ -19,8 +19,14 @@ const Mini = () => {
           <Col>
             <br></br>
             <br></br>
+            <br></br>
             <div>
               <h2>"Galactic Shimmer"</h2>
+              <br></br>
+              <h4 className="mini-text">
+                A sparkly synth meets a grooving bass and drum beat for cool,
+                but also kind of weird vibes.
+              </h4>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -33,8 +39,15 @@ const Mini = () => {
             </div>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
             <div>
               <h2>"Final Boss"</h2>
+              <br></br>
+              <h4 className="mini-text">
+                A driving bass with hard rock drums meet an out of this world
+                synth lead.
+              </h4>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -47,8 +60,14 @@ const Mini = () => {
             </div>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
             <div>
               <h2>"Dramatic Orchestra"</h2>
+              <br></br>
+              <h4 className="mini-text">
+                A lush and emotional piece featuring strings.
+              </h4>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -61,8 +80,14 @@ const Mini = () => {
             </div>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
             <div>
               <h2>"Innovation"</h2>
+              <br></br>
+              <h4 className="mini-text">
+                A synthy kick-clap song with some dreamy pads.
+              </h4>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -75,8 +100,15 @@ const Mini = () => {
             </div>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
             <div>
               <h2>"Jungle Fun"</h2>
+              <br></br>
+              <h4 className="mini-text">
+                A bouncy tune featuring marimba and as well as unpitched
+                percussion.
+              </h4>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -89,8 +121,15 @@ const Mini = () => {
             </div>
             <br></br>
             <br></br>
+            <br></br>
+            <br></br>
             <div>
               <h2>"Viking Battle"</h2>
+              <br></br>
+              <h4 className="mini-text">
+                An epic combination of today's synth sounds and music of the
+                past.
+              </h4>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -102,44 +141,7 @@ const Mini = () => {
               </div>
             </div>
           </Col>
-          <Col>
-            <div className="mini-descriptions">
-              <h4 className="mini-text">
-                A sparkly synth meets a grooving bass and drum beat for cool,
-                but also kind of weird vibes.
-              </h4>
-            </div>
-            <div className="mini-descriptions2">
-              <h4 className="mini-text">
-                A driving bass with hard rock drums meet an out of this world
-                synth lead.
-              </h4>
-            </div>
-            <br></br>
-            <div className="mini-descriptions2">
-              <h4 className="mini-text">
-                A lush and emotional piece featuring strings.
-              </h4>
-            </div>
-            <br></br>
-            <div className="mini-descriptions2">
-              <h4 className="mini-text">
-                A synthy kick-clap song with some dreamy pads.
-              </h4>
-            </div>
-            <div className="mini-descriptions2">
-              <h4 className="mini-text">
-                A bouncy tune featuring marimba and as well as unpitched
-                percussion.
-              </h4>
-            </div>
-            <div className="mini-descriptions2">
-              <h4 className="mini-text">
-                An epic combination of today's synth sounds and music of the
-                past.
-              </h4>
-            </div>
-          </Col>
+
         </Row>
       </Container>
     </div>
