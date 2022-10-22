@@ -19,8 +19,8 @@ function ColorSchemesExample() {
                 <NavDropdown.Item className="dropdown" href="/singles">
                   Singles
                 </NavDropdown.Item>
-                <NavDropdown.Item className="dropdown" href="/podcasts">
-                  Podcasts
+                <NavDropdown.Item className="dropdown" href="/commissions">
+                  Commissions
                 </NavDropdown.Item>
                 <NavDropdown.Item className="dropdown" href="/mini-songs">
                   Mini Songs

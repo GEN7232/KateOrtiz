@@ -459,6 +459,17 @@ a:hover {
 
 }
 
+.react-player3 {
+    position: absolute;
+    top: 10%;
+    left: 25%;
+}
+
+.video-desc {
+    position: relative;
+    margin-top: 20%;
+}
+
 .poison-player {
     margin-top: -55%;
 }
@@ -576,3 +587,4 @@ a:hover {
 .center {
     text-align: center;
 }
+

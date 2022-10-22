@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.633ced17.css",
-    "main.js": "/static/js/main.3c137422.js",
+    "main.css": "/static/css/main.52b035a1.css",
+    "main.js": "/static/js/main.bc9782e0.js",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
     "static/media/Kate.jpeg": "/static/media/Kate.a6eeaf8d35f119980b27.jpeg",
@@ -18,6 +18,7 @@
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
     "static/media/spotify.png": "/static/media/spotify.04882a8ca2bb6aec7ac1.png",
+    "static/media/spotify2.png": "/static/media/spotify2.ad8aa20393dc0453e209.png",
     "static/media/fa-regular-400.eot": "/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
     "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
     "static/media/fa-regular-400.woff": "/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
@@ -25,11 +26,11 @@
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "static/media/youtube-music.png": "/static/media/youtube-music.1e0bfc621307d014bb4c.png",
     "index.html": "/index.html",
-    "main.633ced17.css.map": "/static/css/main.633ced17.css.map",
-    "main.3c137422.js.map": "/static/js/main.3c137422.js.map"
+    "main.52b035a1.css.map": "/static/css/main.52b035a1.css.map",
+    "main.bc9782e0.js.map": "/static/js/main.bc9782e0.js.map"
   },
   "entrypoints": [
-    "static/css/main.633ced17.css",
-    "static/js/main.3c137422.js"
+    "static/css/main.52b035a1.css",
+    "static/js/main.bc9782e0.js"
   ]
 }

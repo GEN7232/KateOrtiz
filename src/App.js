@@ -12,7 +12,7 @@ import Home from "./components/pages/Home";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/footer/Footer.js";
 import Singles from "./components/pages/Music/Singles";
-import Podcasts from "./components/pages/Music/Podcasts";
+import Commissions from "./components/pages/Music/Commissions";
 import Mini from "./components/pages/Music/Mini";
 import Videos from "./components/pages/Music/Videos";
 
@@ -30,7 +30,7 @@ function App() {
               element={<h1 className="display-2">Wrong page!</h1>}
             />
             <Route path="/singles" element={<Singles />} />
-            <Route path="/podcasts" element={<Podcasts />} />
+            <Route path="/commissions" element={<Commissions />} />
             <Route path="/mini-songs" element={<Mini />} />
             <Route path="/videos" element={<Videos />} />
           </Routes>
