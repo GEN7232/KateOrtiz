@@ -19,6 +19,8 @@ export const Footer = () => {
           <CDBBox display="flex" justifyContent="between" className="flex-wrap">
             <CDBBox>
               <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://www.instagram.com/iamkateortiz/?hl=en"
                 className="d-flex align-items-center p-0 text-dark"
               >
@@ -27,6 +29,8 @@ export const Footer = () => {
             </CDBBox>
             <CDBBox>
               <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://twitter.com/iamkateortiz?lang=en"
                 className="d-flex align-items-center p-0 text-dark"
               >
@@ -35,6 +39,8 @@ export const Footer = () => {
             </CDBBox>
             <CDBBox>
               <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV"
                 className="d-flex align-items-center p-0 text-dark mt-1px"
               >
@@ -43,6 +49,8 @@ export const Footer = () => {
             </CDBBox>
             <CDBBox>
               <a
+                target="_blank"
+                rel="noreferrer"
                 href="https://tidal.com/browse/artist/21095604"
                 className="d-flex align-items-center p-0 text-dark"
               >

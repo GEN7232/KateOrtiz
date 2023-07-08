@@ -1,5 +1,6 @@
 * {
     color: white;
+    background-color: #3287a8;
 }
 
 /* body {
@@ -9,6 +10,7 @@
 /* .navtext {
     color: white
 } */
+
 
 @media screen and (max-width: 320px) {
     .width {

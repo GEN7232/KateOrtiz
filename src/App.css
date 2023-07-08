@@ -588,3 +588,52 @@ a:hover {
     text-align: center;
 }
 
+#presave {
+    text-align: center;
+}
+
+#presave-text {
+    text-align: center;
+    width: 25%;
+    margin: auto;
+    color: white;
+    text-decoration: underline #3287a8;
+    font-size: 18pt;
+}
+
+#presave img {
+    margin: auto;
+    margin-top: 20px;
+    height: 200px;
+}
+
+
+#navColor {
+    background-color: #3287a8;
+
+}
+
+hr {
+    border: 2px solid #3287a8;
+    margin: 50px 100px 50px 100px;
+    color: #3287a8;
+    opacity: 1;
+    border-radius: 20px;
+}
+
+#latest-text {
+    text-align: center;
+}
+
+#latest-icon-container {
+    width: 80%;
+    margin: 0 10% 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#latest-icon-container a img{
+    width: 60px;
+    margin: auto;
+}

@@ -7,7 +7,7 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 function ColorSchemesExample() {
   return (
     <>
-      <Navbar collapseOnSelect expand="sm" bg="primary" variant="dark">
+      <Navbar collapseOnSelect expand="sm" id="navColor" variant="dark">
         <Container>
           <Navbar.Brand href="/">Kate Ortiz</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

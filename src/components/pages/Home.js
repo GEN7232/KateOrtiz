@@ -1,12 +1,96 @@
 import Kate from "../../assets/imgs/Kate.jpeg";
+import FunSong from "../../assets/imgs/FunSongArt.jpg"
 import React from "react";
+import spotify2 from "../../assets/imgs/spotify2.png";
+import apple from "../../assets/imgs/apple-music-logo.png";
+import youtube from "../../assets/imgs/youtube-music.png";
+import Tidal from "../../assets/imgs/Tidal.png";
+import soundcloud from "../../assets/imgs/soundcloud.png"
+import amazon from "../../assets/imgs/amazon.png"
+import deezer from "../../assets/imgs/deezer.png"
 
 function Home() {
   return (
     <div>
       <br></br>
+      <br></br>
       <h1>Kate Ortiz</h1>
       <h3>Songwriter and Producer</h3>
+      <hr></hr>
+      <h3>Upcoming Releases</h3>
+      <a 
+        id="presave"
+        rel="noreferrer"
+        target="_blank"
+        href="https://distrokid.com/hyperfollow/kateortiz/a-really-fun-song-about-wanting-to-die?fbclid=PAAaZOHTznlKlcZOsOQfohjxe9mq3hWkBk0HMDr4WZozFdPijzzazXNfkwU1Q">
+          <div>
+            <img alt="Pre-Save Kate Ortiz's next single, 'A Really Fun Song About Wanting to Die'" src={FunSong}></img>
+          </div>
+          <br></br>
+          <div id="presave-text">
+          Pre-Save her next single 
+          <br></br>
+          "A Really Fun Song About Wanting to Die"
+          </div>
+        </a>
+        <hr></hr>
+        <h3>Latest Release</h3>
+        <h4 id="latest-text">  
+          "Just Like Poison"
+        </h4>
+        <br></br>
+        <div id="latest-icon-container">
+          <a id="latest-spotify"
+            target="_blank"
+            rel="noreferrer"
+            href="https://open.spotify.com/album/3o0KQ5iSzWkndsTphBDzNN?si=qTlk6yJbRaaainEIr6HwZw">
+            <img alt="Listen to 'Just Like Posion' on Spotify" src={spotify2}></img>
+          </a>
+          <a
+            id="latest-apple"
+            target="_blank"
+            rel="noreferrer"
+            href="https://music.apple.com/us/album/just-like-poison-single/1619797239">
+            <img alt="Listen to 'Just Like Posion' on Apple Music" src={apple}></img>
+          </a>
+          <a
+            id="latest-tidal"
+            target="_blank"
+            rel="noreferrer"
+            href="https://tidal.com/browse/album/225370897">
+            <img alt="Listen to 'Just Like Posion' on Tidal" src={Tidal}></img>
+          </a>
+          <a
+            id="latest-youtube"
+            target="_blank"
+            rel="noreferrer"
+            href="https://youtu.be/FnY21zutWho">
+            <img alt="Listen to 'Just Like Posion' on Youtube Music" src={youtube}></img>
+          </a>
+          <a
+            id="latest-soundcloud"
+            target="_blank"
+            rel="noreferrer"
+            href="https://soundcloud.com/user-534750572/just-like-poison">
+            <img alt="Listen to 'Just Like Posion' on SoundCloud" src={soundcloud}></img>
+          </a>
+          <a
+            id="latest-amazon"
+            target="_blank"
+            rel="noreferrer"
+            href="https://music.amazon.com/albums/B09Y6ZS79M?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_3GqC309xfz6R2xWYUXDmnZ3wM&trackAsin=B09Y6B1S4V">
+            <img alt="Listen to 'Just Like Posion' on Amazon Music" src={amazon}></img>
+          </a>
+          <a
+            id="latest-deezer"
+            target="_blank"
+            rel="noreferrer"
+            href="https://deezer.page.link/PkVPTFjx9ccEBez16">
+            <img alt="Listen to 'Just Like Posion' on Deezer" src={deezer}></img>
+          </a>
+
+
+        </div>
       <img className="katepic" src={Kate} alt="Kate Ortiz"></img>
       <div className="bio">
         <p>
