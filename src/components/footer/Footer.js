@@ -63,7 +63,7 @@ export const Footer = () => {
               </a>
             </CDBBox>
           </CDBBox>
-          <small className="text-center mt-5">&copy; Kate Ortiz 2022</small>
+          <small className="text-center mt-5">&copy; Kate Ortiz 2023</small>
         </CDBBox>
       </CDBFooter>
     </div>

@@ -1,7 +1,7 @@
-import Kate from "../../assets/imgs/Kate.jpeg";
+import Kate from "../../assets/imgs/kate2023.jpeg";
 import FunSong from "../../assets/imgs/FunSongArt.jpg"
 import React from "react";
-import spotify2 from "../../assets/imgs/spotify2.png";
+import spotify from "../../assets/imgs/spotify.png";
 import apple from "../../assets/imgs/apple-music-logo.png";
 import youtube from "../../assets/imgs/youtube-music.png";
 import Tidal from "../../assets/imgs/Tidal.png";
@@ -38,13 +38,12 @@ function Home() {
         <h4 id="latest-text">  
           "Just Like Poison"
         </h4>
-        <br></br>
         <div id="latest-icon-container">
           <a id="latest-spotify"
             target="_blank"
             rel="noreferrer"
             href="https://open.spotify.com/album/3o0KQ5iSzWkndsTphBDzNN?si=qTlk6yJbRaaainEIr6HwZw">
-            <img alt="Listen to 'Just Like Posion' on Spotify" src={spotify2}></img>
+            <img alt="Listen to 'Just Like Posion' on Spotify" src={spotify}></img>
           </a>
           <a
             id="latest-apple"
@@ -88,9 +87,8 @@ function Home() {
             href="https://deezer.page.link/PkVPTFjx9ccEBez16">
             <img alt="Listen to 'Just Like Posion' on Deezer" src={deezer}></img>
           </a>
-
-
         </div>
+        <hr></hr>
       <img className="katepic" src={Kate} alt="Kate Ortiz"></img>
       <div className="bio">
         <p>

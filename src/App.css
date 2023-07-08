@@ -610,7 +610,15 @@ a:hover {
 
 #navColor {
     background-color: #3287a8;
+    height: 60px;
+}
 
+a.navbar-brand {
+    font-size: 22pt;
+}
+
+a.nav-link {
+    font-size: 16pt;
 }
 
 hr {
@@ -626,8 +634,8 @@ hr {
 }
 
 #latest-icon-container {
-    width: 80%;
-    margin: 0 10% 0 10%;
+    width: 70%;
+    margin: 5% 15% 5% 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
