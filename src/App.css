@@ -634,7 +634,7 @@ a:hover {
 }
 
 .react-player-mini {
-    position: absolute;
+    /* position: absolute; */
     top: 0%;
     left: 0%;
 }
@@ -724,6 +724,11 @@ a:hover {
     height: 200px;
 }
 
+.navbar-collapse {
+    background-color: #3287a8;
+    padding-left: 10px;
+
+}
 
 #navColor {
     background-color: #3287a8;
