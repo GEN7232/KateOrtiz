@@ -1,5 +1,5 @@
 import React from "react";
-import { CDBFooter, CDBFooterLink, CDBBox, CDBBtn, CDBIcon } from "cdbreact";
+import { CDBFooter, CDBBox, } from "cdbreact";
 // import facebook from "../../assets/imgs/facebook.png";
 import insta from "../../assets/imgs/insta.png";
 import twitter from "../../assets/imgs/twitter.png";

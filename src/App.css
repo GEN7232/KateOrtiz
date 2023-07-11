@@ -25,10 +25,20 @@ body {
     margin-top: 15%;
 }
 
-#spotify {
+/* #spotify {
     width: 30%;
     margin: 0 auto;
     margin-top: 5%;
+} */
+
+.logos {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos a img{
+    width: 60px
 }
 
 .find-spotify {
@@ -119,17 +129,21 @@ header {
 
 .bio {
     width: 80%;
-    margin-left: 10%;
-    margin-top: 4%;
+    /* margin-left: 10%;
+    margin-top: 4%; */
+    margin: 4% 10% 10% 10%;
     text-align: center;
     font-size: 25px;
 }
+
 
 @media screen and (max-width: 700px) {
     .bio {
         font-size: 12px;
     }
 }
+
+
 
 @media screen and (max-width: 1400px) {
     .instruments {
@@ -189,13 +203,13 @@ header {
     }
 }
 
-#apple {
+/* #apple {
     width: 35%;
-}
+} */
 
-#youtube-music {
+/* #youtube-music {
     width: 23%;
-}
+} */
 /* 
 a:hover {
     cursor: pointer;
@@ -445,29 +459,130 @@ a:hover {
 }
   
 .react-player1 {
-    position: absolute;
-    top: 5%;
-    left: 25%;
-
+    margin: 50px auto 50px auto;
+    width: 50%;
+    height: 50%
 }
 
 .react-player2 {
-    position: absolute;
-    top: 70%;
-    left: 25%;
-    margin-bottom: 20%;
-
+    margin: 0 auto 50px auto;
 }
 
 .react-player3 {
-    position: absolute;
-    top: 10%;
-    left: 25%;
+    margin: 0 auto 50px auto;
+}
+
+.react-player4 {
+    margin: 50px auto 50px auto;
+}
+
+@media screen and (max-width: 750px){
+    .react-player1 {
+        width: 400px !important;
+        height: 225px !important;
+
+    }
+    
+    .react-player2 {
+        width: 400px !important; 
+        height: 225px !important;
+
+    }
+    
+    .react-player3 {
+        width: 400px !important;
+        height: 225px !important;
+
+    }
+    
+    .react-player4 {
+        width: 400px !important;
+        height: 225px !important;
+
+    }
+}
+
+@media screen and (max-width: 500px){
+    .react-player1 {
+        width: 320px !important;
+        height: 180px !important;
+
+    }
+    
+    .react-player2 {
+        width: 320px !important; 
+        height: 180px !important;
+
+    }
+    
+    .react-player3 {
+        width: 320px !important;
+        height: 180px !important;
+
+    }
+    
+    .react-player4 {
+        width: 320px !important;
+        height: 180px !important;
+
+    }
+}
+
+@media screen and (max-width: 400px){
+    .react-player1 {
+        width: 250px !important;
+        height: 140px !important;
+
+    }
+    
+    .react-player2 {
+        width: 250px !important; 
+        height: 140px !important;
+
+    }
+    
+    .react-player3 {
+        width: 250px !important;
+        height: 140px !important;
+
+    }
+    
+    .react-player4 {
+        width: 250px !important;
+        height: 140px !important;
+
+    }
+}
+
+@media screen and (max-width: 300px){
+    .react-player1 {
+        width: 200px !important;
+        height: 112.5px !important;
+
+    }
+    
+    .react-player2 {
+        width: 200px !important;
+        height: 112.5px !important;
+
+    }
+    
+    .react-player3 {
+        width: 200px !important;
+        height: 112.5px !important;
+
+    }
+    
+    .react-player4 {
+        width: 200px !important;
+        height: 112.5px !important;
+
+    }
 }
 
 .video-desc {
     position: relative;
-    margin-top: 20%;
+    /* margin-top: 20%; */
 }
 
 .poison-player {
@@ -485,7 +600,9 @@ a:hover {
 
 .player-wrapper {
     position: relative;
-    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
 }
   
 .react-player-apologize {
@@ -580,9 +697,9 @@ a:hover {
     margin-left: 10%;
 }
 
-.tidal-footer {
+/* .tidal-footer {
     margin-top: -20%;
-}
+} */
 
 .center {
     text-align: center;
@@ -594,7 +711,7 @@ a:hover {
 
 #presave-text {
     text-align: center;
-    width: 25%;
+    width: 50%;
     margin: auto;
     color: white;
     text-decoration: underline #3287a8;
@@ -631,11 +748,12 @@ hr {
 
 #latest-text {
     text-align: center;
+    margin-top: 15px;
 }
 
 #latest-icon-container {
     width: 70%;
-    margin: 5% 15% 5% 15%;
+    margin: 20px 15% 5% 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -644,4 +762,53 @@ hr {
 #latest-icon-container a img{
     width: 60px;
     margin: auto;
+}
+
+#latest-pic-container img {
+    display: block;
+    margin: 80px auto 0 auto;
+    width: 240px;
+
+}
+
+
+a {
+    color: white;
+    text-decoration: underline #3287a8;
+}
+
+@media screen and (max-width: 850px) {
+    #presave-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #presave-text {
+        font-size: 14px;
+    }
+    #latest-icon-container a img {
+        width: 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #latest-icon-container a img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    #latest-icon-container a img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+
+    #latest-icon-container a img {
+        width: 20px;
+    }
 }

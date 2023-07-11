@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import ReactPlayer from "react-player";
-import spotify2 from "../../../assets/imgs/spotify2.png";
+import spotify from "../../../assets/imgs/spotify.png";
 import apple from "../../../assets/imgs/apple-music-logo.png";
 import youtube from "../../../assets/imgs/youtube-music.png";
 import Tidal from "../../../assets/imgs/Tidal.png";
@@ -54,7 +54,7 @@ const Singles = () => {
                 href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV?si=JMvbQvUpR--SliXZs29LwA"
                 target="_blank"
               >
-                <img id="spotify" src={spotify2} alt="Spotify"></img>
+                <img id="spotify" src={spotify} alt="Spotify"></img>
               </a>
               <a
                 href="https://music.apple.com/us/artist/kate-ortiz/1529541219"
@@ -281,7 +281,7 @@ const Singles = () => {
             href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV?si=JMvbQvUpR--SliXZs29LwA"
             target="_blank"
           >
-            <img id="spotify-small" src={spotify2} alt="Spotify"></img>
+            <img id="spotify-small" src={spotify} alt="Spotify"></img>
           </a>
           <a
             href="https://music.apple.com/us/artist/kate-ortiz/1529541219"

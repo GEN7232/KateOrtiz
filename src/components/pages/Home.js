@@ -8,6 +8,7 @@ import Tidal from "../../assets/imgs/Tidal.png";
 import soundcloud from "../../assets/imgs/soundcloud.png"
 import amazon from "../../assets/imgs/amazon.png"
 import deezer from "../../assets/imgs/deezer.png"
+import poison from "../../assets/imgs/Just-Like-Poison.jpg"
 
 function Home() {
   return (
@@ -38,6 +39,10 @@ function Home() {
         <h4 id="latest-text">  
           "Just Like Poison"
         </h4>
+        <div id="latest-pic-container">
+          <img id="lastest-pic" src={poison} alt="Listen to Kate Ortiz's latest single 'Just Like Poison'"></img>
+        </div>
+
         <div id="latest-icon-container">
           <a id="latest-spotify"
             target="_blank"
@@ -103,6 +108,7 @@ function Home() {
           drumming, playing bass, writing, producing, and more.
         </p>
       </div>
+      <hr></hr>
     </div>
   );
 }

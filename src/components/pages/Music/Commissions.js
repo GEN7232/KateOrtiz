@@ -12,17 +12,23 @@ const Commissions = () => {
         <br></br>
         <h4>
           Kate Ortiz wrote and performed the instruments for the following
-          podcast introductions
+          podcast intros/outros
         </h4>
         <div className="player-wrapper">
           {/* <h2>Band Battles Intro Music</h2>
                 <br></br> */}
           <ReactPlayer
-            url="https://soundcloud.com/user-489550250/band-battles-episode-4-michael-jackson-v-prince"
+            url="https://soundcloud.com/user-534750572/band-battles-intro?si=9ec94c1c94f8478fa0e4e5768de041fb&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
             className="react-player1"
-            width="50%"
-            height="50%"
+            // width="100%"
+            // height="100%"
           />
+          <ReactPlayer
+            url="https://soundcloud.com/user-534750572/band-battles-outro-with-vo?si=ca225b9d25414de4a3a49c6a87f52e9e&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+            className="react-player2"
+            // width="100%"
+            // height="100%"
+          />          
           {/* <br></br>
                 <br></br>
                 <br></br>
@@ -30,9 +36,9 @@ const Commissions = () => {
                 <br></br> */}
           <ReactPlayer
             url="https://www.youtube.com/watch?v=qNQ8K21sstE"
-            className="react-player2"
-            width="50%"
-            height="50%"
+            className="react-player3"
+            // width="100%"
+            // height="100%"
           />
         </div>
       </div>
@@ -45,9 +51,9 @@ const Commissions = () => {
         <div className="player-wrapper">
           <ReactPlayer
             url="https://www.youtube.com/watch?v=V3yGhIc0y2c"
-            className="react-player3"
-            width="50%"
-            height="50%"
+            className="react-player4"
+            // width="100%"
+            // height="100%"
           />
         </div>
       </div>
