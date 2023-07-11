@@ -8,8 +8,8 @@ const Videos = () => {
   return (
     <div>
       <header>
-        <h1>Videos of Kate's Music</h1>
-        <h4>
+        <h1 id="videos-h1">Videos of Kate's Music</h1>
+        <h4 id="h4">
           Subscribe to her{" "}
           <a href="https://www.youtube.com/channel/UCBZIeGh0Am7WLYvNBfbK0Nw">
             Youtube Channel
@@ -20,14 +20,34 @@ const Videos = () => {
         <Row>
           <Col xs={6} className="video-div">
             <div className="videos">
+            <h2>"Just Like Poison" Live</h2>
+              <br></br>
+              <div className="player-wrapper">
+                <ReactPlayer
+                  className="react-player-poison"
+                  url="https://www.youtube.com/watch?v=eVgK0L1-dr0"
+                  height="50%"
+                  width="50%"
+                />
+              </div>
+              <h2>"Shine" Live</h2>
+              <br></br>
+              <div className="player-wrapper">
+                <ReactPlayer
+                  className="react-player-shine"
+                  url="https://www.youtube.com/watch?v=LPZT373hIKc"
+                  height="50%"
+                  width="50%"
+                />
+              </div>
               <h2>"Apologize" Live</h2>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
                   className="react-player-apologize"
                   url="https://www.youtube.com/watch?v=Z2fV8bj53C8"
-                  height="100%"
-                  width="100%"
+                  height="50%"
+                  width="50%"
                 />
               </div>
             </div>
@@ -38,8 +58,8 @@ const Videos = () => {
                 <ReactPlayer
                   className="react-player-here"
                   url="https://www.youtube.com/watch?v=ceSz-IH-mR8"
-                  height="100%"
-                  width="100%"
+                  height="50%"
+                  width="50%"
                 />
               </div>
             </div>
@@ -58,6 +78,12 @@ const Videos = () => {
           </Col>
           <Col>
             <div className="descriptions">
+              <br></br>
+              <div className="poison-video">
+                <p>
+                  Live performance videos recorded at Lakehouse Recording Studios as part of their Lakehouse Live series. Featuring Genevieve Nelson on bass, and Maria Ruiz on drums.
+                </p>
+              </div>
               <br></br>
               <div className="apologize-video">
                 <p>
@@ -89,6 +115,26 @@ const Videos = () => {
       <Container className="mobile">
         <Col>
           <div className="videos">
+          <h2>"Just Like Poison" Live</h2>
+              <br></br>
+              <div className="player-wrapper">
+                <ReactPlayer
+                  className="react-player-poison"
+                  url="https://www.youtube.com/watch?v=eVgK0L1-dr0"
+                  height="100%"
+                  width="100%"
+                />
+              </div>
+              <h2>"Shine" Live</h2>
+              <br></br>
+              <div className="player-wrapper">
+                <ReactPlayer
+                  className="react-player-shine"
+                  url="https://www.youtube.com/watch?v=LPZT373hIKc"
+                  height="100%"
+                  width="100%"
+                />
+              </div>
             <h2>"Apologize" Live</h2>
             <br></br>
             <div className="player-wrapper">

@@ -232,20 +232,20 @@ a:hover {
     background-color: #0275d8;
 }
 
-.videos {
+/* .videos {
     margin-top: 25%;
-}
+} */
 /* .dropdown {
     background-color: #0275d8;
 } */
 
-.apologize-video {
-    margin-top: 55%;
+/* .apologize-video {
+    margin-top: 170%;
 }
 
 .here-at-last-video {
-    margin-top: 85%;
-}
+    margin-top: 50%;
+} */
 
 .rotten-live {
     margin-top: 90%;
@@ -441,12 +441,6 @@ a:hover {
     }
 }
 
-#spotify-small {
-    margin-left: 5%;
-    width: 28%;
-    margin-top: 7%;
-}
-
 .descriptions2 {
     margin-top: 10%;
     text-align: center;
@@ -589,9 +583,9 @@ a:hover {
 
 } */
 
-.poison-player2 {
+/* .poison-player2 {
     margin-top: -55%;
-}
+} */
 
 .with-you-desc {
     margin-top: -55%;
@@ -605,7 +599,7 @@ a:hover {
     width: 80%;
 }
   
-.react-player-apologize {
+/* .react-player-apologize {
     position: absolute;
     top: 0%;
     left: 0%;
@@ -627,7 +621,7 @@ a:hover {
     position: absolute;
     top: 0%;
     left: 0%;
-}
+} */
 
 .footer {
     margin-top: 10%;
@@ -816,4 +810,41 @@ a {
     #latest-icon-container a img {
         width: 20px;
     }
+}
+
+.react-player-poison {
+    margin: 0 auto 40px auto;
+    width: 500px !important;
+    height: 281.25px !important;
+    
+}
+
+.react-player-shine {
+    margin: 0 auto 40px auto;
+    width: 500px !important;
+    height: 281.25px !important;
+}
+
+.react-player-apologize {
+    margin: 0 auto 40px auto;
+    width: 500px !important;
+    height: 281.25px !important;
+}
+
+.react-player-here {
+    margin: 0 auto 40px auto;
+    width: 500px !important;
+    height: 281.25px !important;
+}
+
+#h4 {
+    margin-bottom: 50px;
+}
+
+#videos-h1 {
+    margin-bottom: 20px;
+}
+
+.poison-video {
+    margin-top: 100px;
 }
