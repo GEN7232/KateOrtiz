@@ -2,7 +2,6 @@ import React from "react";
 import { CDBFooter, CDBBox, } from "cdbreact";
 // import facebook from "../../assets/imgs/facebook.png";
 import insta from "../../assets/imgs/insta.png";
-import twitter from "../../assets/imgs/twitter.png";
 import spotify from "../../assets/imgs/spotify.png";
 import Tidal from "../../assets/imgs/Tidal.png";
 
@@ -25,16 +24,6 @@ export const Footer = () => {
                 className="d-flex align-items-center p-0 text-dark"
               >
                 <img alt="Instagram" src={insta} width="50px" />
-              </a>
-            </CDBBox>
-            <CDBBox>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://twitter.com/iamkateortiz?lang=en"
-                className="d-flex align-items-center p-0 text-dark"
-              >
-                <img alt="Twitter" src={twitter} width="50px" />
               </a>
             </CDBBox>
             <CDBBox>
