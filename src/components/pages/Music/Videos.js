@@ -16,13 +16,12 @@ const Videos = () => {
           </a>
         </h4>
       </header>
-      <Container className="desktop">
+      <Container>
         <Row>
-          <Col xs={6} className="video-div">
-            <div className="videos">
-            <h2>"Just Like Poison" Live</h2>
-              <br></br>
+          <div className="videos">
+            <div className="videos-flex">
               <div className="player-wrapper">
+                <h2>"Just Like Poison" Live</h2>
                 <ReactPlayer
                   className="react-player-poison"
                   url="https://www.youtube.com/watch?v=eVgK0L1-dr0"
@@ -30,9 +29,19 @@ const Videos = () => {
                   width="50%"
                 />
               </div>
-              <h2>"Shine" Live</h2>
-              <br></br>
+              <div className="poison-video">
+                <p>
+                  Live performance video of "Just Like Poison" recorded at
+                  Lakehouse Recording Studios as part of their Lakehouse Live
+                  series. Featuring Genevieve Nelson on bass and Maria Ruiz on
+                  drums.
+                </p>
+              </div>
+            </div>
+
+            <div class="videos-flex">
               <div className="player-wrapper">
+                <h2>"Shine" Live</h2>
                 <ReactPlayer
                   className="react-player-shine"
                   url="https://www.youtube.com/watch?v=LPZT373hIKc"
@@ -40,9 +49,17 @@ const Videos = () => {
                   width="50%"
                 />
               </div>
-              <h2>"Apologize" Live</h2>
-              <br></br>
+              <div className="shine-video">
+                <p>
+                  Live performance video of "Shine" recorded at Lakehouse
+                  Recording Studios as part of their Lakehouse Live series.
+                  Featuring Genevieve Nelson on bass and Maria Ruiz on drums.
+                </p>
+              </div>
+            </div>
+            <div className="videos-flex">
               <div className="player-wrapper">
+                <h2>"Apologize" Live</h2>
                 <ReactPlayer
                   className="react-player-apologize"
                   url="https://www.youtube.com/watch?v=Z2fV8bj53C8"
@@ -50,41 +67,6 @@ const Videos = () => {
                   width="50%"
                 />
               </div>
-            </div>
-            <div className="videos">
-              <h2>"Here at Last" Music Video</h2>
-              <br></br>
-              <div className="player-wrapper">
-                <ReactPlayer
-                  className="react-player-here"
-                  url="https://www.youtube.com/watch?v=ceSz-IH-mR8"
-                  height="50%"
-                  width="50%"
-                />
-              </div>
-            </div>
-            {/* <div className="videos">
-                        <h2>"Rotten" Acoustic Live</h2>
-                        <div className="player-wrapper"></div>
-                            <ReactPlayer className="react-player-rotten" url="https://www.youtube.com/watch?v=AScKm-A3S20" height="40%" width="37"/>
-                        </div>
-                    <div className="videos">
-                        <h2>"Stay" by Lisa Loeb</h2>
-                        <br></br>
-                        <div className="player-wrapper">
-                            <ReactPlayer className="react-player-stay" url="https://www.youtube.com/watch?v=AKxk16hSosw" height="100%" width="100%" />
-                        </div>
-                    </div> */}
-          </Col>
-          <Col>
-            <div className="descriptions">
-              <br></br>
-              <div className="poison-video">
-                <p>
-                  Live performance videos recorded at Lakehouse Recording Studios as part of their Lakehouse Live series. Featuring Genevieve Nelson on bass, and Maria Ruiz on drums.
-                </p>
-              </div>
-              <br></br>
               <div className="apologize-video">
                 <p>
                   Live performance video recorded at Lakehouse Recording
@@ -92,85 +74,28 @@ const Videos = () => {
                   guitar and background vocals, and K Kiatpreecha on drums.
                 </p>
               </div>
-              <br></br>
+            </div>
 
+            <div className="videos-flex">
               <br></br>
+              <div className="player-wrapper">
+                <h2>"Here at Last" Music Video</h2>
+                <ReactPlayer
+                  className="react-player-here"
+                  url="https://www.youtube.com/watch?v=ceSz-IH-mR8"
+                  height="50%"
+                  width="50%"
+                />
+              </div>
               <div className="here-at-last-video">
                 <p>
                   Music Video by TG Gainey Productions as part of his
                   Picks-A-Lation Creation Series
                 </p>
               </div>
-              {/* <div className="rotten-live">
-                                <p>Acoustic version of "Rotten" performed live at The Chubby Pickle in Atlantic Highlands, NJ.</p>
-                            </div>
-                            <br></br>
-                            <div className="stay">
-                                <p>Acoustic cover of "Stay" by Lisa Loeb.</p>
-                            </div> */}
             </div>
-          </Col>
+          </div>
         </Row>
-      </Container>
-      <Container className="mobile">
-        <Col>
-          <div className="videos">
-          <h2>"Just Like Poison" Live</h2>
-              <br></br>
-              <div className="player-wrapper">
-                <ReactPlayer
-                  className="react-player-poison"
-                  url="https://www.youtube.com/watch?v=eVgK0L1-dr0"
-                  height="100%"
-                  width="100%"
-                />
-              </div>
-              <h2>"Shine" Live</h2>
-              <br></br>
-              <div className="player-wrapper">
-                <ReactPlayer
-                  className="react-player-shine"
-                  url="https://www.youtube.com/watch?v=LPZT373hIKc"
-                  height="100%"
-                  width="100%"
-                />
-              </div>
-            <h2>"Apologize" Live</h2>
-            <br></br>
-            <div className="player-wrapper">
-              <ReactPlayer
-                className="react-player-apologize"
-                url="https://www.youtube.com/watch?v=Z2fV8bj53C8"
-                height="100%"
-                width="100%"
-              />
-            </div>
-            <br></br>
-            <p className="center">
-              Live performance video recorded at Lakehouse Recording Studios.
-              Featuring Genevieve Nelson on bass, Rob Tanico on guitar and
-              background vocals, and K Kiatpreecha on drums.
-            </p>
-          </div>
-
-          <div className="videos">
-            <h2>"Here at Last" Music Video</h2>
-            <br></br>
-            <div className="player-wrapper">
-              <ReactPlayer
-                className="react-player-here"
-                url="https://www.youtube.com/watch?v=ceSz-IH-mR8"
-                height="100%"
-                width="100%"
-              />
-            </div>
-            <br></br>
-            <p className="center">
-              Music Video by TG Gainey Productions as part of his Picks-A-Lation
-              Creation Series
-            </p>
-          </div>
-        </Col>
       </Container>
     </div>
   );

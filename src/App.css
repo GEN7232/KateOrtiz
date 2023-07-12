@@ -424,9 +424,6 @@ a:hover {
 }
 
 @media screen and (max-width: 550px) {
-    .desktop {
-        display: none;
-    }
     .singles {
         margin-left: 9%;
     }
@@ -437,6 +434,12 @@ a:hover {
 
 @media screen and (min-width: 550px) {
     .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .desktop {
         display: none;
     }
 }
@@ -832,7 +835,7 @@ a {
 }
 
 .react-player-here {
-    margin: 0 auto 40px auto;
+    /* margin: 0 auto 40px auto; */
     width: 500px !important;
     height: 281.25px !important;
 }
@@ -847,4 +850,128 @@ a {
 
 .poison-video {
     margin-top: 100px;
+}
+
+.videos-flex {
+    display: flex;
+}
+
+.shine-video {
+    margin-top: 8%;
+}
+
+.apologize-video {
+    margin-top: 8%;
+}
+
+.here-at-last-video {
+    margin-top: 8%;
+}
+
+.player-wrapper h2 {
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1000px){
+    .videos-flex {
+        flex-direction: column;
+    }
+    .poison-video {
+        margin: 0;
+        text-align: center;
+    }
+    .shine-video {
+        margin: 0;
+        text-align: center
+    }
+    .apologize-video {
+        margin: 0;
+        text-align: center
+
+    }
+    .here-at-last-video {
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .react-player-poison {
+        width: 350px !important;
+        height: 196.875px !important;
+    }
+    .react-player-shine {
+        width: 350px !important;
+        height: 196.875px !important;
+    }
+    .react-player-apologize {
+        width: 350px !important;
+        height: 196.875px !important;
+    }
+    .react-player-here {
+        width: 350px !important;
+        height: 196.875px !important;
+        margin: 0 auto 40px auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .react-player-poison {
+        width: 300px !important;
+        height: 168.75px !important;
+    }
+    .react-player-shine {
+        width: 300px !important;
+        height: 168.75px !important;
+    }
+    .react-player-apologize {
+        width: 300px !important;
+        height: 168.75px !important;
+    }
+    .react-player-here {
+        width: 300px !important;
+        height: 168.75px !important;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .react-player-poison {
+        width: 250px !important;
+        height: 140.625px !important;
+    }
+    .react-player-shine {
+        width: 250px !important;
+        height: 140.625px !important;
+    }
+    .react-player-apologize {
+        width: 250px !important;
+        height: 140.625px !important;
+    }
+    .react-player-here {
+        width: 250px !important;
+        height: 140.625px !important;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    .react-player-poison {
+        width: 200px !important;
+        height: 112.5px !important;
+    }
+    .react-player-shine {
+        width: 200px !important;
+        height: 112.5px !important;
+    }
+    .react-player-apologize {
+        width: 200px !important;
+        height: 112.5px !important;
+    }
+    .react-player-here {
+        width: 200px !important;
+        height: 112.5px !important;
+    }
+}
+
+nav {
+    z-index: 999;
 }
