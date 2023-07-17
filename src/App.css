@@ -32,7 +32,8 @@ body {
 } */
 
 .logos {
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -432,15 +433,19 @@ a:hover {
     }
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 800px) {
     .mobile {
         display: none;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 800px) {
     .desktop {
         display: none;
+    }
+    .singles {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -974,4 +979,8 @@ a {
 
 nav {
     z-index: 999;
+}
+
+.die {
+    margin-top: 55%;
 }

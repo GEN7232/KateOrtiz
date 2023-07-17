@@ -76,7 +76,7 @@ const Videos = () => {
               </div>
             </div>
 
-            <div className="videos-flex">
+            {/* <div className="videos-flex">
               <br></br>
               <div className="player-wrapper">
                 <h2>"Here at Last" Music Video</h2>
@@ -93,7 +93,7 @@ const Videos = () => {
                   Picks-A-Lation Creation Series
                 </p>
               </div>
-            </div>
+            </div> */}
           </div>
         </Row>
       </Container>

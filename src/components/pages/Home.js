@@ -8,7 +8,7 @@ import Tidal from "../../assets/imgs/Tidal.png";
 import soundcloud from "../../assets/imgs/soundcloud.png"
 import amazon from "../../assets/imgs/amazon.png"
 import deezer from "../../assets/imgs/deezer.png"
-import poison from "../../assets/imgs/Just-Like-Poison.jpg"
+// import poison from "../../assets/imgs/Just-Like-Poison.jpg"
 
 function Home() {
   return (
@@ -18,7 +18,7 @@ function Home() {
       <h1>Kate Ortiz</h1>
       <h3>Songwriter and Producer</h3>
       <hr></hr>
-      <h3>Upcoming Releases</h3>
+      {/* <h3>Upcoming Releases</h3>
       <a 
         id="presave"
         rel="noreferrer"
@@ -34,63 +34,66 @@ function Home() {
           "A Really Fun Song About Wanting to Die"
           </div>
         </a>
-        <hr></hr>
+        <hr></hr> */}
         <h3>Latest Release</h3>
         <h4 id="latest-text">  
-          "Just Like Poison"
+          "A Really Fun Song About Wanting to Die"
         </h4>
         <div id="latest-pic-container">
-          <img id="lastest-pic" src={poison} alt="Listen to Kate Ortiz's latest single 'Just Like Poison'"></img>
+          <img id="lastest-pic" src={FunSong} alt="Listen to Kate Ortiz's latest single 'A Really Fun Song About Wanting to Die'"></img>
+          <br></br>
+          <br></br>
+          <br></br>
         </div>
 
         <div id="latest-icon-container">
           <a id="latest-spotify"
             target="_blank"
             rel="noreferrer"
-            href="https://open.spotify.com/album/3o0KQ5iSzWkndsTphBDzNN?si=qTlk6yJbRaaainEIr6HwZw">
-            <img alt="Listen to 'Just Like Posion' on Spotify" src={spotify}></img>
+            href="https://open.spotify.com/album/41UrL4iI67pNnjpMpnj9Zn?si=C8qFqDh3RiCaHhlC0gkXmg">
+            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Spotify" src={spotify}></img>
           </a>
           <a
             id="latest-apple"
             target="_blank"
             rel="noreferrer"
-            href="https://music.apple.com/us/album/just-like-poison-single/1619797239">
-            <img alt="Listen to 'Just Like Posion' on Apple Music" src={apple}></img>
+            href="https://music.apple.com/us/album/a-really-fun-song-about-wanting-to-die-single/1693150588">
+            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Apple Music" src={apple}></img>
           </a>
           <a
             id="latest-tidal"
             target="_blank"
             rel="noreferrer"
-            href="https://tidal.com/browse/album/225370897">
-            <img alt="Listen to 'Just Like Posion' on Tidal" src={Tidal}></img>
+            href="https://tidal.com/browse/album/300525469">
+            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Tidal" src={Tidal}></img>
           </a>
           <a
             id="latest-youtube"
             target="_blank"
             rel="noreferrer"
-            href="https://youtu.be/FnY21zutWho">
-            <img alt="Listen to 'Just Like Posion' on Youtube Music" src={youtube}></img>
+            href="https://youtu.be/ipEDFJRQtp8">
+            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Youtube Music" src={youtube}></img>
           </a>
           <a
             id="latest-soundcloud"
             target="_blank"
             rel="noreferrer"
-            href="https://soundcloud.com/user-534750572/just-like-poison">
-            <img alt="Listen to 'Just Like Posion' on SoundCloud" src={soundcloud}></img>
+            href="https://soundcloud.com/user-534750572/a-really-fun-song-about-wanting-to-die?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
+            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on SoundCloud" src={soundcloud}></img>
           </a>
           <a
             id="latest-amazon"
             target="_blank"
             rel="noreferrer"
-            href="https://music.amazon.com/albums/B09Y6ZS79M?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_3GqC309xfz6R2xWYUXDmnZ3wM&trackAsin=B09Y6B1S4V">
-            <img alt="Listen to 'Just Like Posion' on Amazon Music" src={amazon}></img>
+            href="https://music.amazon.com/albums/B0C8M1G77X?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_KjyjyIWFkWor7A1vQpRYqczsp">
+            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Amazon Music" src={amazon}></img>
           </a>
           <a
             id="latest-deezer"
             target="_blank"
             rel="noreferrer"
-            href="https://deezer.page.link/PkVPTFjx9ccEBez16">
-            <img alt="Listen to 'Just Like Posion' on Deezer" src={deezer}></img>
+            href="https://deezer.page.link/m8n2Pk4Zi21aoXmi7">
+            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Deezer" src={deezer}></img>
           </a>
         </div>
         <hr></hr>

@@ -8,6 +8,9 @@ import spotify from "../../../assets/imgs/spotify.png";
 import apple from "../../../assets/imgs/apple-music-logo.png";
 import youtube from "../../../assets/imgs/youtube-music.png";
 import Tidal from "../../../assets/imgs/Tidal.png";
+import soundcloud from "../../../assets/imgs/soundcloud.png";
+import amazon from "../../../assets/imgs/amazon.png";
+import deezer from "../../../assets/imgs/deezer.png";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Singles = () => {
@@ -66,12 +69,38 @@ const Singles = () => {
                 href="https://tidal.com/browse/artist/21095604"
                 target="_blank"
               >
-                <img id="youtube-music" src={Tidal} alt="Tidal"></img>
+                <img id="tidal" src={Tidal} alt="Tidal"></img>
+              </a>
+            </div>
+            <div className="logos">
+              <a
+                href="https://music.youtube.com/channel/UC1zUhEZakwBFm3BSb1al1wQ"
+                target="_blank"
+              >
+                <img id="youtube-music" src={youtube} alt="Youtube Music"></img>
+              </a>
+              <a href="https://soundcloud.com/user-534750572" target="_blank">
+                <img src={soundcloud} alt="SoundCloud"></img>
+              </a>
+              <a
+                href="https://music.amazon.com/artists/B07G7JRG92/kate-ortiz?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_5uwegbE6PBroDR6m0C7aRNhiS"
+                target="_blank"
+              >
+                <img src={amazon} alt="Amazon Music"></img>
               </a>
             </div>
           </Col>
           <Col>
             <div className="singles">
+              <div className="player">
+                <h2>"A Really Fun Song About Wanting to Die"</h2>
+                <br></br>
+                <ReactPlayer
+                  url="https://soundcloud.com/user-534750572/a-really-fun-song-about-wanting-to-die"
+                  height="100%"
+                  width="100%"
+                />
+              </div>
               <div className="player">
                 <h2>"Just Like Poison"</h2>
                 <br></br>
@@ -178,6 +207,12 @@ const Singles = () => {
           </Col>
           <Col>
             <div className="descriptions">
+              <div className="die">
+                <p>
+                  A modern ska song engineered and co-produced by Genevieve
+                  Nelson. Kate feels better now by the way...
+                </p>
+              </div>
               <div className="poison">
                 <p>
                   A spacey dark pop-rock song engineered and co-produced by
@@ -267,11 +302,8 @@ const Singles = () => {
           >
             Apple Music, &nbsp;
           </a>
-          <a
-            href="https://music.youtube.com/channel/UC1zUhEZakwBFm3BSb1al1wQ"
-            target="_blank"
-          >
-            Youtube Music,
+          <a href="https://tidal.com/browse/artist/21095604" target="_blank">
+            Tidal,
           </a>
           &nbsp; and other streaming platforms.
         </h2>
@@ -289,14 +321,44 @@ const Singles = () => {
           >
             <img id="apple" src={apple} alt="Apple Music"></img>
           </a>
+          <a href="https://tidal.com/browse/artist/21095604" target="_blank">
+            <img id="tidal" src={Tidal} alt="Tidal"></img>
+          </a>
+        </div>
+        <br></br>
+        <div className="logos">
           <a
             href="https://music.youtube.com/channel/UC1zUhEZakwBFm3BSb1al1wQ"
             target="_blank"
           >
             <img id="youtube-music" src={youtube} alt="Youtube Music"></img>
           </a>
+          <a href="https://soundcloud.com/user-534750572" target="_blank">
+            <img src={soundcloud} alt="SoundCloud"></img>
+          </a>
+          <a
+            href="https://music.amazon.com/artists/B07G7JRG92/kate-ortiz?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_5uwegbE6PBroDR6m0C7aRNhiS"
+            target="_blank"
+          >
+            <img src={amazon} alt="Amazon Music"></img>
+          </a>
         </div>
         <div className="singles">
+          <div className="player">
+            <h2>"A Really Fun Song About Wanting to Die"</h2>
+            <br></br>
+            <ReactPlayer
+              url="https://soundcloud.com/user-534750572/a-really-fun-song-about-wanting-to-die"
+              height="100%"
+              width="100%"
+            />
+          </div>
+          <div class="descriptions2">
+            <p>
+              A modern ska song engineered and co-produced by Genevieve Nelson.
+              Kate feels better now by the way...
+            </p>
+          </div>
           <div className="player">
             <h2>"Just Like Poison"</h2>
             <br></br>
