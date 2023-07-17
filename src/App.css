@@ -42,9 +42,6 @@ body {
     width: 60px
 }
 
-.find-spotify {
-    margin-top: 10%;
-}
 
 h1 {
     text-align: center;
@@ -983,4 +980,16 @@ nav {
 
 .die {
     margin-top: 55%;
+}
+
+.row {
+    align-items: flex-start;
+}
+
+.find-spotify {
+    position: -webkit-sticky;
+
+    position: sticky !important;
+    top: 50px;
+    margin-top: 10%;
 }

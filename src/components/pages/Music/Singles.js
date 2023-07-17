@@ -10,7 +10,7 @@ import youtube from "../../../assets/imgs/youtube-music.png";
 import Tidal from "../../../assets/imgs/Tidal.png";
 import soundcloud from "../../../assets/imgs/soundcloud.png";
 import amazon from "../../../assets/imgs/amazon.png";
-import deezer from "../../../assets/imgs/deezer.png";
+// import deezer from "../../../assets/imgs/deezer.png";
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Singles = () => {
