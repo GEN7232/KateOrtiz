@@ -630,6 +630,8 @@ a:hover {
 
 .footer {
     margin-top: 10%;
+    background-color: #3287a8;
+    padding: 20px 0;
 }
 
 .react-player-mini {
@@ -992,4 +994,10 @@ nav {
     position: sticky !important;
     top: 50px;
     margin-top: 10%;
+}
+
+
+.footer-flex {
+    display: flex;
+
 }
