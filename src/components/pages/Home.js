@@ -1,13 +1,14 @@
 import Kate from "../../assets/imgs/kate2023.jpeg";
-import FunSong from "../../assets/imgs/FunSongArt.jpg"
+// import FunSong from "../../assets/imgs/FunSongArt.jpg"
+import ChristmasArtwork from "../../assets/imgs/christmas-artwork.jpg"
 import React from "react";
 import spotify from "../../assets/imgs/spotify.png";
 import apple from "../../assets/imgs/apple-music-logo.png";
 import youtube from "../../assets/imgs/youtube-music.png";
 import Tidal from "../../assets/imgs/Tidal.png";
-import soundcloud from "../../assets/imgs/soundcloud.png"
+// import soundcloud from "../../assets/imgs/soundcloud.png"
 import amazon from "../../assets/imgs/amazon.png"
-import deezer from "../../assets/imgs/deezer.png"
+// import deezer from "../../assets/imgs/deezer.png"
 // import poison from "../../assets/imgs/Just-Like-Poison.jpg"
 
 function Home() {
@@ -37,10 +38,10 @@ function Home() {
         <hr></hr> */}
         <h3>Latest Release</h3>
         <h4 id="latest-text">  
-          "A Really Fun Song About Wanting to Die"
+          "Christmas (Go Fuck Yourself)"
         </h4>
         <div id="latest-pic-container">
-          <img id="lastest-pic" src={FunSong} alt="Listen to Kate Ortiz's latest single 'A Really Fun Song About Wanting to Die'"></img>
+          <img id="lastest-pic" src={ChristmasArtwork} alt="Album artwork for Kate Ortiz's latest single 'Christmas (Go Fuck Yourself)'"></img>
           <br></br>
           <br></br>
           <br></br>
@@ -50,51 +51,51 @@ function Home() {
           <a id="latest-spotify"
             target="_blank"
             rel="noreferrer"
-            href="https://open.spotify.com/album/41UrL4iI67pNnjpMpnj9Zn?si=C8qFqDh3RiCaHhlC0gkXmg">
-            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Spotify" src={spotify}></img>
+            href="https://open.spotify.com/track/7JLigXyUh3nY2MUbEOnAMH?si=1a432175eb9e41bd">
+            <img alt="Listen to 'Christmas (Go Fuck Yourself)' on Spotify" src={spotify}></img>
           </a>
           <a
             id="latest-apple"
             target="_blank"
             rel="noreferrer"
-            href="https://music.apple.com/us/album/a-really-fun-song-about-wanting-to-die-single/1693150588">
-            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Apple Music" src={apple}></img>
+            href="https://music.apple.com/us/song/christmas-go-fuck-yourself/1856067283">
+            <img alt="Listen to 'Christmas (Go Fuck Yourself)' on Apple Music" src={apple}></img>
           </a>
           <a
             id="latest-tidal"
             target="_blank"
             rel="noreferrer"
-            href="https://tidal.com/browse/album/300525469">
-            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Tidal" src={Tidal}></img>
+            href="https://tidal.com/track/476190246/u">
+            <img alt="Listen to 'Christmas (Go Fuck Yourself' on Tidal" src={Tidal}></img>
           </a>
           <a
             id="latest-youtube"
             target="_blank"
             rel="noreferrer"
-            href="https://youtu.be/ipEDFJRQtp8">
-            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Youtube Music" src={youtube}></img>
+            href="https://youtu.be/jKVtFtyrC88?si=_UWP-ORV0LJ1blHI">
+            <img alt="Listen to 'Christmas (Go Fuck Yourself)' on Youtube Music" src={youtube}></img>
           </a>
-          <a
+          {/* <a
             id="latest-soundcloud"
             target="_blank"
             rel="noreferrer"
             href="https://soundcloud.com/user-534750572/a-really-fun-song-about-wanting-to-die?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">
             <img alt="Listen to 'A Really Fun Song About Wanting to Die' on SoundCloud" src={soundcloud}></img>
-          </a>
+          </a> */}
           <a
             id="latest-amazon"
             target="_blank"
             rel="noreferrer"
-            href="https://music.amazon.com/albums/B0C8M1G77X?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_KjyjyIWFkWor7A1vQpRYqczsp">
-            <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Amazon Music" src={amazon}></img>
+            href="https://amazon.com/music/player/albums/B0G3N6KR6V?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_H9PAo5PFhtB5CZQVNmxiWhoND">
+            <img alt="Listen to 'Christmas (Go Fuck Yourself)' on Amazon Music" src={amazon}></img>
           </a>
-          <a
+          {/* <a
             id="latest-deezer"
             target="_blank"
             rel="noreferrer"
             href="https://deezer.page.link/m8n2Pk4Zi21aoXmi7">
             <img alt="Listen to 'A Really Fun Song About Wanting to Die' on Deezer" src={deezer}></img>
-          </a>
+          </a> */}
         </div>
         <hr></hr>
       <img className="katepic" src={Kate} alt="Kate Ortiz"></img>
