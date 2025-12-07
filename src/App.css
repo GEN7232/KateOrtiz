@@ -632,6 +632,9 @@ a:hover {
     margin-top: 10%;
     background-color: #3287a8;
     padding: 20px 0;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 .react-player-mini {
