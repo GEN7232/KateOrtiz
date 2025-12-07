@@ -49,7 +49,7 @@ const Singles = () => {
               >
                 Tidal
               </a>
-              , &nbsp;
+              , &nbsp; and much more!
             </h2>
             <br></br>
             <div className="logos">
