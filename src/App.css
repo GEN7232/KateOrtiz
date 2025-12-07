@@ -629,10 +629,10 @@ a:hover {
 } */
 
 .footer {
-    margin-top: 10%;
+    margin-top: 20%;
     background-color: #3287a8;
     padding: 20px 0;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
 }

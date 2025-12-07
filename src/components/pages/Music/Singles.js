@@ -24,9 +24,7 @@ const Singles = () => {
         <Row>
           <Col className="find-spotify">
             <p className="instruments">
-              Kate Ortiz sang and played guitar and piano on every song, and
-              played bass and drums on "Just Like Poison", "Here at Last",
-              "Rotten", "Let Me Out of My Cage", and "That Isn't Me".
+              Kate Ortiz sang and played guitar and piano on every song as well as bass and guitar on many.
             </p>
             <h2>
               Find all these tracks and more on &nbsp;
@@ -34,22 +32,24 @@ const Singles = () => {
                 href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV?si=JMvbQvUpR--SliXZs29LwA"
                 target="_blank"
               >
-                Spotify, &nbsp;
+                Spotify,
                 <br></br>
               </a>
+              &nbsp;
               <a
                 href="https://music.apple.com/us/artist/kate-ortiz/1529541219"
                 target="_blank"
               >
-                Apple Music, &nbsp;
+                Apple Music
               </a>
+              , &nbsp;
               <a
                 href="https://tidal.com/browse/artist/21095604"
                 target="_blank"
               >
-                Tidal,
+                Tidal
               </a>
-              &nbsp; and other streaming platforms.
+              , &nbsp;
             </h2>
             <br></br>
             <div className="logos">
@@ -294,18 +294,26 @@ const Singles = () => {
             href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV?si=JMvbQvUpR--SliXZs29LwA"
             target="_blank"
           >
-            Spotify, &nbsp;
+            Spotify,
           </a>
+          <p>
+            &nbsp;
+          </p>
           <a
             href="https://music.apple.com/us/artist/kate-ortiz/1529541219"
             target="_blank"
           >
-            Apple Music, &nbsp;
+            Apple Music,
           </a>
+          <p>
+            &nbsp;
+          </p>
           <a href="https://tidal.com/browse/artist/21095604" target="_blank">
             Tidal,
           </a>
-          &nbsp; and other streaming platforms.
+          <p>          
+            &nbsp; and other streaming platforms.
+          </p>
         </h2>
         <br></br>
         <div className="logos">
