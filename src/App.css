@@ -1026,6 +1026,8 @@ nav div.container button {
 
 div.nav-item.show.dropdown a {
     color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 /*End mobile nav update*/
@@ -1037,3 +1039,12 @@ div.nav-item a {
 div#mini-songs-container, div#commissions-container, div#videos-container {
     margin-bottom: 100px;
 }
+
+/*Accessiblity Updates 12/12/25*/
+
+.navbar .nav-link.active,
+.dropdown-item.active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
