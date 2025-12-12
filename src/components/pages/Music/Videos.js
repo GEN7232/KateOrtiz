@@ -6,7 +6,7 @@ import ReactPlayer from "react-player";
 
 const Videos = () => {
   return (
-    <div>
+    <div id="videos-container">
       <header>
         <h1 id="videos-h1">Videos of Kate's Music</h1>
         <h4 id="h4">

@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 const Commissions = () => {
   return (
-    <div>
+    <div id="commissions-container">
       <br></br>
       <br></br>
       <h1>Commissions</h1>

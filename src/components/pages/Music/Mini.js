@@ -6,7 +6,7 @@ import ReactPlayer from "react-player";
 
 const Mini = () => {
   return (
-    <div>
+    <div id="mini-songs-container">
       <br></br>
       <h1>Mini Songs</h1>
       <br></br>
