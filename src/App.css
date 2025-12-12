@@ -558,16 +558,7 @@ a:hover {
 
 .video-desc {
   position: relative;
-  /* margin-top: 20%; */
 }
-
-/* .poison-player {
-
-} */
-
-/* .poison-player2 {
-    margin-top: -55%;
-} */
 
 .with-you-desc {
   margin-top: -55%;
@@ -583,7 +574,6 @@ a:hover {
 
 .footer {
   background-color: #3287a8;
-  padding: 20px 0;
   position: fixed;
   bottom: 0px;
   width: 100%;
@@ -1002,4 +992,9 @@ div.single-wrapper {
     div.player iframe {
         margin-left: -40%;
     }
+}
+
+/*Footer shrink*/
+div.footer img {
+    width: 40px;
 }

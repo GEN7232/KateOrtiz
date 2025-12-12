@@ -18,7 +18,7 @@ export const Footer = () => {
                 href="https://www.instagram.com/iamkateortiz/?hl=en"
                 className="d-flex align-items-center p-0 text-dark"
               >
-                <img alt="Instagram" src={insta} width="50px" />
+                <img alt="Instagram" src={insta}  />
               </a>
             </Container>
             <Container>
@@ -28,7 +28,7 @@ export const Footer = () => {
                 href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV"
                 className="d-flex align-items-center p-0 text-dark mt-1px"
               >
-                <img alt="Spotify" src={spotify} width="50px" />
+                <img alt="Spotify" src={spotify}/>
               </a>
             </Container>
             <Container>
@@ -41,7 +41,6 @@ export const Footer = () => {
                 <img
                   alt="Tidal"
                   src={Tidal}
-                  width="50px"
                   className="tidal-footer"
                 />
               </a>
