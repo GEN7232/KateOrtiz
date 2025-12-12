@@ -1017,3 +1017,26 @@ div.contact-container form .button {
   border: 1px solid white;
   border-radius: 5px;
 }
+
+/*Mobile Navbar Cleanup*/
+div.navbar-collapse.collapse.show {
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+div.navbar-nav a{
+    color: white;
+    padding: 5px;
+}
+
+nav div.container button {
+    border: 2px solid white;
+}
+
+.navbar>.container {
+    background-color: #3287a8;
+}
+
+div.nav-item.show.dropdown a {
+    color: black;
+}
