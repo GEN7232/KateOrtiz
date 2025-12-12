@@ -1,28 +1,26 @@
 body {
-    color: white;
-    background-color: black;
+  color: white;
+  background-color: black;
 }
 
-
 .katepic {
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    justify-content: center;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 .singles {
-    border: 2px white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 12%;
-    width: 85%;
+  border: 2px white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 12%;
+  width: 85%;
 }
 
 .player {
-    margin: 0 auto;
-    margin-top: 15%;
+  margin: 0 auto;
 }
 
 /* #spotify {
@@ -32,173 +30,168 @@ body {
 } */
 
 .logos {
-    margin-top: 20px;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.logos a img{
-    width: 60px
+.logos a img {
+  width: 60px;
 }
-
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 h2 {
-    text-align: center;
+  text-align: center;
 }
 
 h4 {
-    text-align: center;
+  text-align: center;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .poison {
-    margin-top: 40%;
+  margin-top: 40%;
 }
 
 .descriptions {
-    margin-left: 25%;
-    font-size: 22px;
-    text-align: center;
+  font-size: 22px;
+  text-align: center;
 }
 
 .apologize {
-    margin-top: 35%;
+  margin-top: 35%;
 }
 
 .trouble {
-    margin-top: 40%;
+  margin-top: 40%;
 }
 
 .rotten {
-    margin-top: 45%;
+  margin-top: 45%;
 }
 
 .let-me-out {
-    margin-top: 40%;
+  margin-top: 40%;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 header {
-    margin-top: 4%;
-    padding-left: 4%;
+  margin-top: 4%;
+  padding-left: 4%;
 }
 
 .here-at-last {
-    margin-top: 40%;
+  margin-top: 40%;
 }
 
 .that-isnt-me {
-    margin-top: 30%;
+  margin-top: 30%;
 }
 
 .nothing-at-all {
-    margin-top: 40%;
+  margin-top: 40%;
 }
 
 .shine {
-    margin-top: 45%;
+  margin-top: 45%;
 }
 
 .with-you {
-    margin-top: 40%;
+  margin-top: 40%;
 }
 
 .instruments {
-    text-align: center;
-    font-size: 23px;
-    margin-top: -2%;
-    margin-bottom: 10%;
+  text-align: center;
+  font-size: 23px;
+  margin-top: -2%;
+  margin-bottom: 10%;
 }
 
 .katepic {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 .bio {
-    width: 80%;
-    /* margin-left: 10%;
+  width: 80%;
+  /* margin-left: 10%;
     margin-top: 4%; */
-    margin: 4% 10% 10% 10%;
-    text-align: center;
-    font-size: 25px;
+  margin: 4% 10% 10% 10%;
+  text-align: center;
+  font-size: 25px;
 }
-
 
 @media screen and (max-width: 700px) {
-    .bio {
-        font-size: 12px;
-    }
-}
-
-
-
-@media screen and (max-width: 1400px) {
-    .instruments {
-        font-size: 18px;
-    }
-    .descriptions {
-        font-size: 15px;
-    }
-
-    .player {
-        width: 75%;
-    }
-    h2 {
-        font-size: large;
-    }
-    .apologize {
-        margin-top: 70%;
-    }
-    .trouble {
-        margin-top: 65%;
-    }
-    .rotten {
-        margin-top: 65%;
-    }
-    .let-me-out {
-        margin-top: 65%;
-    }
-    .here-at-last {
-        margin-top: 60%;
-    }
-    .that-isnt-me {
-        margin-top: 60%;
-    }
-    .nothing-at-all {
-        margin-top: 55%;
-    }
-    .shine {
-        margin-top: 60%;
-    }
-    .with-you {
-        margin-top: 60%;
-    }
+  .bio {
+    font-size: 12px;
+  }
 }
 
 @media screen and (max-width: 1400px) {
-    .instruments {
-        font-size: 18px;
-    }
+  .instruments {
+    font-size: 18px;
+  }
+  .descriptions {
+    font-size: 15px;
+  }
+
+  .player {
+    width: 75%;
+  }
+  h2 {
+    font-size: large;
+  }
+  .apologize {
+    margin-top: 70%;
+  }
+  .trouble {
+    margin-top: 65%;
+  }
+  .rotten {
+    margin-top: 65%;
+  }
+  .let-me-out {
+    margin-top: 65%;
+  }
+  .here-at-last {
+    margin-top: 60%;
+  }
+  .that-isnt-me {
+    margin-top: 60%;
+  }
+  .nothing-at-all {
+    margin-top: 55%;
+  }
+  .shine {
+    margin-top: 60%;
+  }
+  .with-you {
+    margin-top: 60%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .instruments {
+    font-size: 18px;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .instruments {
-        font-size: 12px;
-    }
-    h2 {
-        font-size: medium;
-    }
+  .instruments {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: medium;
+  }
 }
 
 /* #apple {
@@ -223,11 +216,11 @@ a:hover {
 } */
 
 .podcasts {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 .button {
-    background-color: #0275d8;
+  background-color: #0275d8;
 }
 
 /* .videos {
@@ -246,342 +239,326 @@ a:hover {
 } */
 
 .rotten-live {
-    margin-top: 90%;
+  margin-top: 90%;
 }
 
 .stay {
-    margin-top: 90%;
+  margin-top: 90%;
 }
 
 @media screen and (max-width: 1200px) {
-    .poison {
-        margin-top: 50%;
-    }
-    .apologize {
-        margin-top: 60%;
-    }
-    .trouble {
-        margin-top: 65%;
-    }
-    .rotten {
-        margin-top: 65%;
-    }
-    .let-me-out {
-        margin-top: 75%;
-    }
-    .here-at-last {
-        margin-top: 55%;
-    }
-    .that-isnt-me {
-        margin-top: 55%;
-    }
-    .nothing-at-all {
-        margin-top: 65%;
-    }
-    .shine {
-        margin-top: 65%;
-    }
-    .with-you {
-        margin-top: 65%;
-    }
+  .poison {
+    margin-top: 50%;
+  }
+  .apologize {
+    margin-top: 60%;
+  }
+  .trouble {
+    margin-top: 65%;
+  }
+  .rotten {
+    margin-top: 65%;
+  }
+  .let-me-out {
+    margin-top: 75%;
+  }
+  .here-at-last {
+    margin-top: 55%;
+  }
+  .that-isnt-me {
+    margin-top: 55%;
+  }
+  .nothing-at-all {
+    margin-top: 65%;
+  }
+  .shine {
+    margin-top: 65%;
+  }
+  .with-you {
+    margin-top: 65%;
+  }
 }
 
 @media screen and (max-width: 991px) {
-    .player h2 {
-        font-size: 15px;
-    }
-    .apologize {
-        margin-top: 50%;
-    }
-    .trouble {
-        margin-top: 45%;
-    }
-    .rotten {
-        margin-top: 55%;
-    }
-    .let-me-out {
-        margin-top: 70%;
-    }
-    .here-at-last {
-        margin-top: 65%;
-    }
-    .that-isnt-me {
-        margin-top: 35%;
-    }
-    .nothing-at-all {
-        margin-top: 60%;
-    }
-    .shine {
-        margin-top: 40%;
-    }
-    .with-you {
-        margin-top: 40%;
-    }
+  .player h2 {
+    font-size: 15px;
+  }
+  .apologize {
+    margin-top: 50%;
+  }
+  .trouble {
+    margin-top: 45%;
+  }
+  .rotten {
+    margin-top: 55%;
+  }
+  .let-me-out {
+    margin-top: 70%;
+  }
+  .here-at-last {
+    margin-top: 65%;
+  }
+  .that-isnt-me {
+    margin-top: 35%;
+  }
+  .nothing-at-all {
+    margin-top: 60%;
+  }
+  .shine {
+    margin-top: 40%;
+  }
+  .with-you {
+    margin-top: 40%;
+  }
 }
 
 @media screen and (max-width: 900px) {
-    .descriptions {
-        font-size: 12px;
-    }
-    .poison {
-        margin-top: 65%;
-    }
-    .apologize {
-        margin-top: 85%;
-    }
-    .trouble {
-        margin-top: 90%;
-    }
-    .rotten {
-        margin-top: 85%;
-    }
-    .let-me-out {
-        margin-top: 95%;
-    }
-    .here-at-last {
-        margin-top: 85%;
-    }
-    .that-isnt-me {
-        margin-top: 85%;
-    }
-    .nothing-at-all {
-        margin-top: 85%;
-    }
-    .shine {
-        margin-top: 85%;
-    }
-    .with-you {
-        margin-top: 70%;
-    }
+  .descriptions {
+    font-size: 12px;
+  }
+  .poison {
+    margin-top: 65%;
+  }
+  .apologize {
+    margin-top: 85%;
+  }
+  .trouble {
+    margin-top: 90%;
+  }
+  .rotten {
+    margin-top: 85%;
+  }
+  .let-me-out {
+    margin-top: 95%;
+  }
+  .here-at-last {
+    margin-top: 85%;
+  }
+  .that-isnt-me {
+    margin-top: 85%;
+  }
+  .nothing-at-all {
+    margin-top: 85%;
+  }
+  .shine {
+    margin-top: 85%;
+  }
+  .with-you {
+    margin-top: 70%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .poison {
-        margin-top: 90%;
-    }
-    .apologize {
-        margin-top: 80%;
-    }
-    .trouble {
-        margin-top: 70%;
-    }
-    .rotten {
-        margin-top: 95%;
-    }
-    .let-me-out {
-        margin-top: 100%;
-    }
-    .here-at-last {
-        margin-top: 85%;
-    }
-    .that-isnt-me {
-        margin-top: 85%;
-    }
-    .nothing-at-all {
-        margin-top: 95%;
-    }
-    .shine {
-        margin-top: 60%;
-    }
-    .with-you {
-        margin-top: 60%;
-    }
+  .poison {
+    margin-top: 90%;
+  }
+  .apologize {
+    margin-top: 80%;
+  }
+  .trouble {
+    margin-top: 70%;
+  }
+  .rotten {
+    margin-top: 95%;
+  }
+  .let-me-out {
+    margin-top: 100%;
+  }
+  .here-at-last {
+    margin-top: 85%;
+  }
+  .that-isnt-me {
+    margin-top: 85%;
+  }
+  .nothing-at-all {
+    margin-top: 95%;
+  }
+  .shine {
+    margin-top: 60%;
+  }
+  .with-you {
+    margin-top: 60%;
+  }
 }
 
 @media screen and (max-width: 574px) {
-    .poison {
-        margin-top: 90%;
-    }
-    .apologize {
-        margin-top: 80%;
-    }
-    .trouble {
-        margin-top: 70%;
-    }
-    .rotten {
-        margin-top: 95%;
-    }
-    .let-me-out {
-        margin-top: 100%;
-    }
-    .here-at-last {
-        margin-top: 85%;
-    }
-    .that-isnt-me {
-        margin-top: 85%;
-    }
-    .nothing-at-all {
-        margin-top: 100%;
-    }
-    .shine {
-        margin-top: 60%;
-    }
-    .with-you {
-        margin-top: 70%;
-    }
+  .poison {
+    margin-top: 90%;
+  }
+  .apologize {
+    margin-top: 80%;
+  }
+  .trouble {
+    margin-top: 70%;
+  }
+  .rotten {
+    margin-top: 95%;
+  }
+  .let-me-out {
+    margin-top: 100%;
+  }
+  .here-at-last {
+    margin-top: 85%;
+  }
+  .that-isnt-me {
+    margin-top: 85%;
+  }
+  .nothing-at-all {
+    margin-top: 100%;
+  }
+  .shine {
+    margin-top: 60%;
+  }
+  .with-you {
+    margin-top: 70%;
+  }
 }
 
 @media screen and (max-width: 550px) {
-    .singles {
-        margin-left: 9%;
-    }
-    .player h2 {
-        font-size: 22px;
-    }
+  .singles {
+    margin-left: 9%;
+  }
+  .player h2 {
+    font-size: 22px;
+  }
 }
 
 @media screen and (min-width: 800px) {
-    .mobile {
-        display: none;
-    }
+  .mobile {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .desktop {
-        display: none;
-    }
-    .singles {
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .desktop {
+    display: none;
+  }
+  .singles {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .descriptions2 {
-    margin-top: 10%;
-    text-align: center;
+  margin-top: 10%;
+  text-align: center;
 }
 
 .react-player-pod {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
 }
-  
+
 .react-player1 {
-    margin: 50px auto 50px auto;
-    width: 50%;
-    height: 50%
+  margin: 50px auto 50px auto;
+  width: 50%;
+  height: 50%;
 }
 
 .react-player2 {
-    margin: 0 auto 50px auto;
+  margin: 0 auto 50px auto;
 }
 
 .react-player3 {
-    margin: 0 auto 50px auto;
+  margin: 0 auto 50px auto;
 }
 
 .react-player4 {
-    margin: 50px auto 50px auto;
+  margin: 50px auto 50px auto;
 }
 
-@media screen and (max-width: 750px){
-    .react-player1 {
-        width: 400px !important;
-        height: 225px !important;
+@media screen and (max-width: 750px) {
+  .react-player1 {
+    width: 400px !important;
+    height: 225px !important;
+  }
 
-    }
-    
-    .react-player2 {
-        width: 400px !important; 
-        height: 225px !important;
+  .react-player2 {
+    width: 400px !important;
+    height: 225px !important;
+  }
 
-    }
-    
-    .react-player3 {
-        width: 400px !important;
-        height: 225px !important;
+  .react-player3 {
+    width: 400px !important;
+    height: 225px !important;
+  }
 
-    }
-    
-    .react-player4 {
-        width: 400px !important;
-        height: 225px !important;
-
-    }
+  .react-player4 {
+    width: 400px !important;
+    height: 225px !important;
+  }
 }
 
-@media screen and (max-width: 500px){
-    .react-player1 {
-        width: 320px !important;
-        height: 180px !important;
+@media screen and (max-width: 500px) {
+  .react-player1 {
+    width: 320px !important;
+    height: 180px !important;
+  }
 
-    }
-    
-    .react-player2 {
-        width: 320px !important; 
-        height: 180px !important;
+  .react-player2 {
+    width: 320px !important;
+    height: 180px !important;
+  }
 
-    }
-    
-    .react-player3 {
-        width: 320px !important;
-        height: 180px !important;
+  .react-player3 {
+    width: 320px !important;
+    height: 180px !important;
+  }
 
-    }
-    
-    .react-player4 {
-        width: 320px !important;
-        height: 180px !important;
-
-    }
+  .react-player4 {
+    width: 320px !important;
+    height: 180px !important;
+  }
 }
 
-@media screen and (max-width: 400px){
-    .react-player1 {
-        width: 250px !important;
-        height: 140px !important;
+@media screen and (max-width: 400px) {
+  .react-player1 {
+    width: 250px !important;
+    height: 140px !important;
+  }
 
-    }
-    
-    .react-player2 {
-        width: 250px !important; 
-        height: 140px !important;
+  .react-player2 {
+    width: 250px !important;
+    height: 140px !important;
+  }
 
-    }
-    
-    .react-player3 {
-        width: 250px !important;
-        height: 140px !important;
+  .react-player3 {
+    width: 250px !important;
+    height: 140px !important;
+  }
 
-    }
-    
-    .react-player4 {
-        width: 250px !important;
-        height: 140px !important;
-
-    }
+  .react-player4 {
+    width: 250px !important;
+    height: 140px !important;
+  }
 }
 
-@media screen and (max-width: 300px){
-    .react-player1 {
-        width: 200px !important;
-        height: 112.5px !important;
+@media screen and (max-width: 300px) {
+  .react-player1 {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
 
-    }
-    
-    .react-player2 {
-        width: 200px !important;
-        height: 112.5px !important;
+  .react-player2 {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
 
-    }
-    
-    .react-player3 {
-        width: 200px !important;
-        height: 112.5px !important;
+  .react-player3 {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
 
-    }
-    
-    .react-player4 {
-        width: 200px !important;
-        height: 112.5px !important;
-
-    }
+  .react-player4 {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
 }
 
 .video-desc {
-    position: relative;
-    /* margin-top: 20%; */
+  position: relative;
+  /* margin-top: 20%; */
 }
 
 /* .poison-player {
@@ -593,414 +570,436 @@ a:hover {
 } */
 
 .with-you-desc {
-    margin-top: -55%;
-    text-align: center;
+  margin-top: -55%;
+  text-align: center;
 }
 
 .player-wrapper {
-    position: relative;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
 }
-  
-/* .react-player-apologize {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-}
-
-.react-player-here {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-}
- 
-.react-player-rotten {
-    position: absolute;
-    top: 150%;
-    left: 23%;
-}
-
-.react-player-stay {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-} */
 
 .footer {
-    margin-top: 20%;
-    background-color: #3287a8;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+  background-color: #3287a8;
+  padding: 20px 0;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .react-player-mini {
-    /* position: absolute; */
-    top: 0%;
-    left: 0%;
+  top: 0%;
+  left: 0%;
 }
 
-.mini-descriptions{
-    width: 80%;
-    margin-top: 40%;
-    margin-left: 5%;
+.mini-descriptions {
+  width: 80%;
+  margin-top: 40%;
+  margin-left: 5%;
 }
 
-.mini-descriptions2{
-    width: 80%;
-    margin-top: 65%;
-    margin-left: 5%;
+.mini-descriptions2 {
+  width: 80%;
+  margin-top: 65%;
+  margin-left: 5%;
 }
 
-@media screen and (max-width: 1399px){
-    .mini-descriptions2 {
-        margin-top: 55%;
-    }
+@media screen and (max-width: 1399px) {
+  .mini-descriptions2 {
+    margin-top: 55%;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .mini-text {
-        font-size: 16px;
-    }
-    .mini-descriptions {
-        margin-top: 55%;
-    }
-    .mini-descriptions2 {
-        margin-top: 60%;
-    }
+  .mini-text {
+    font-size: 16px;
+  }
+  .mini-descriptions {
+    margin-top: 55%;
+  }
+  .mini-descriptions2 {
+    margin-top: 60%;
+  }
 }
 
 @media screen and (max-width: 415px) {
-    .mini-descriptions2 {
-        margin-top: 40%
-    }
+  .mini-descriptions2 {
+    margin-top: 40%;
+  }
 }
 
 @media screen and (max-width: 399px) {
-    .mini-descriptions2 {
-        margin-top: 35%;
-    }
+  .mini-descriptions2 {
+    margin-top: 35%;
+  }
 }
 
 @media screen and (max-width: 368px) {
-    .mini-descriptions2 {
-        margin-top: 25%;
-    }
+  .mini-descriptions2 {
+    margin-top: 25%;
+  }
 }
 
 .mini-title {
-    width: 80%;
-    margin-left: 10%;
+  width: 80%;
+  margin-left: 10%;
 }
-
-.single-wrapper {
-    width: 80%;
-    margin-left: 10%;
-}
-
-/* .tidal-footer {
-    margin-top: -20%;
-} */
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 #presave {
-    text-align: center;
+  text-align: center;
 }
 
 #presave-text {
-    text-align: center;
-    width: 50%;
-    margin: auto;
-    color: white;
-    text-decoration: underline #3287a8;
-    font-size: 18pt;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: white;
+  text-decoration: underline #3287a8;
+  font-size: 18pt;
 }
 
 #presave img {
-    margin: auto;
-    margin-top: 20px;
-    height: 200px;
+  margin: auto;
+  margin-top: 20px;
+  height: 200px;
 }
 
 .navbar-collapse {
-    background-color: #3287a8;
-    padding-left: 10px;
-
+  background-color: #3287a8;
+  padding-left: 10px;
 }
 
 #navColor {
-    background-color: #3287a8;
-    height: 60px;
+  background-color: #3287a8;
+  height: 60px;
 }
 
 a.navbar-brand {
-    font-size: 22pt;
+  font-size: 22pt;
 }
 
 a.nav-link {
-    font-size: 16pt;
+  font-size: 16pt;
 }
 
 hr {
-    border: 2px solid #3287a8;
-    margin: 50px 100px 50px 100px;
-    color: #3287a8;
-    opacity: 1;
-    border-radius: 20px;
+  border: 2px solid #3287a8;
+  margin: 50px 100px 50px 100px;
+  color: #3287a8;
+  opacity: 1;
+  border-radius: 20px;
 }
 
 #latest-text {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 #latest-icon-container {
-    width: 70%;
-    margin: 20px 15% 5% 15%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  width: 70%;
+  margin: 20px 15% 5% 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-#latest-icon-container a img{
-    width: 60px;
-    margin: auto;
+#latest-icon-container a img {
+  width: 60px;
+  margin: auto;
 }
 
 #latest-pic-container img {
-    display: block;
-    margin: 80px auto 0 auto;
-    width: 45%;
-
+  display: block;
+  margin: 80px auto 0 auto;
+  width: 45%;
 }
 
-
 a {
-    color: white;
-    text-decoration: underline #3287a8;
+  color: white;
+  text-decoration: underline #3287a8;
 }
 
 @media screen and (max-width: 850px) {
-    #presave-text {
-        font-size: 16px;
-    }
+  #presave-text {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 700px) {
-    #presave-text {
-        font-size: 14px;
-    }
-    #latest-icon-container a img {
-        width: 40px;
-    }
+  #presave-text {
+    font-size: 14px;
+  }
+  #latest-icon-container a img {
+    width: 40px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-
-    #latest-icon-container a img {
-        width: 30px;
-    }
+  #latest-icon-container a img {
+    width: 30px;
+  }
 }
 
 @media screen and (max-width: 450px) {
-
-    #latest-icon-container a img {
-        width: 30px;
-    }
+  #latest-icon-container a img {
+    width: 30px;
+  }
 }
 
 @media screen and (max-width: 300px) {
-
-    #latest-icon-container a img {
-        width: 20px;
-    }
+  #latest-icon-container a img {
+    width: 20px;
+  }
 }
 
 .react-player-poison {
-    margin: 0 auto 40px auto;
-    width: 500px !important;
-    height: 281.25px !important;
-    
+  margin: 0 auto 40px auto;
+  width: 500px !important;
+  height: 281.25px !important;
 }
 
 .react-player-shine {
-    margin: 0 auto 40px auto;
-    width: 500px !important;
-    height: 281.25px !important;
+  margin: 0 auto 40px auto;
+  width: 500px !important;
+  height: 281.25px !important;
 }
 
 .react-player-apologize {
-    margin: 0 auto 40px auto;
-    width: 500px !important;
-    height: 281.25px !important;
+  margin: 0 auto 40px auto;
+  width: 500px !important;
+  height: 281.25px !important;
 }
 
 .react-player-here {
-    /* margin: 0 auto 40px auto; */
-    width: 500px !important;
-    height: 281.25px !important;
+  /* margin: 0 auto 40px auto; */
+  width: 500px !important;
+  height: 281.25px !important;
 }
 
 #h4 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 #videos-h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .poison-video {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
 .videos-flex {
-    display: flex;
+  display: flex;
 }
 
 .shine-video {
-    margin-top: 8%;
+  margin-top: 8%;
 }
 
 .apologize-video {
-    margin-top: 8%;
+  margin-top: 8%;
 }
 
 .here-at-last-video {
-    margin-top: 8%;
+  margin-top: 8%;
 }
 
 .player-wrapper h2 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
-@media screen and (max-width: 1000px){
-    .videos-flex {
-        flex-direction: column;
-    }
-    .poison-video {
-        margin: 0;
-        text-align: center;
-    }
-    .shine-video {
-        margin: 0;
-        text-align: center
-    }
-    .apologize-video {
-        margin: 0;
-        text-align: center
-
-    }
-    .here-at-last-video {
-        margin: 0;
-        text-align: center;
-    }
+@media screen and (max-width: 1000px) {
+  .videos-flex {
+    flex-direction: column;
+  }
+  .poison-video {
+    margin: 0;
+    text-align: center;
+  }
+  .shine-video {
+    margin: 0;
+    text-align: center;
+  }
+  .apologize-video {
+    margin: 0;
+    text-align: center;
+  }
+  .here-at-last-video {
+    margin: 0;
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 767px) {
-    .react-player-poison {
-        width: 350px !important;
-        height: 196.875px !important;
-    }
-    .react-player-shine {
-        width: 350px !important;
-        height: 196.875px !important;
-    }
-    .react-player-apologize {
-        width: 350px !important;
-        height: 196.875px !important;
-    }
-    .react-player-here {
-        width: 350px !important;
-        height: 196.875px !important;
-        margin: 0 auto 40px auto;
-    }
+  .react-player-poison {
+    width: 350px !important;
+    height: 196.875px !important;
+  }
+  .react-player-shine {
+    width: 350px !important;
+    height: 196.875px !important;
+  }
+  .react-player-apologize {
+    width: 350px !important;
+    height: 196.875px !important;
+  }
+  .react-player-here {
+    width: 350px !important;
+    height: 196.875px !important;
+    margin: 0 auto 40px auto;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .react-player-poison {
-        width: 300px !important;
-        height: 168.75px !important;
-    }
-    .react-player-shine {
-        width: 300px !important;
-        height: 168.75px !important;
-    }
-    .react-player-apologize {
-        width: 300px !important;
-        height: 168.75px !important;
-    }
-    .react-player-here {
-        width: 300px !important;
-        height: 168.75px !important;
-    }
+  .react-player-poison {
+    width: 300px !important;
+    height: 168.75px !important;
+  }
+  .react-player-shine {
+    width: 300px !important;
+    height: 168.75px !important;
+  }
+  .react-player-apologize {
+    width: 300px !important;
+    height: 168.75px !important;
+  }
+  .react-player-here {
+    width: 300px !important;
+    height: 168.75px !important;
+  }
 }
 
 @media screen and (max-width: 375px) {
-    .react-player-poison {
-        width: 250px !important;
-        height: 140.625px !important;
-    }
-    .react-player-shine {
-        width: 250px !important;
-        height: 140.625px !important;
-    }
-    .react-player-apologize {
-        width: 250px !important;
-        height: 140.625px !important;
-    }
-    .react-player-here {
-        width: 250px !important;
-        height: 140.625px !important;
-    }
+  .react-player-poison {
+    width: 250px !important;
+    height: 140.625px !important;
+  }
+  .react-player-shine {
+    width: 250px !important;
+    height: 140.625px !important;
+  }
+  .react-player-apologize {
+    width: 250px !important;
+    height: 140.625px !important;
+  }
+  .react-player-here {
+    width: 250px !important;
+    height: 140.625px !important;
+  }
 }
 
 @media screen and (max-width: 325px) {
-    .react-player-poison {
-        width: 200px !important;
-        height: 112.5px !important;
-    }
-    .react-player-shine {
-        width: 200px !important;
-        height: 112.5px !important;
-    }
-    .react-player-apologize {
-        width: 200px !important;
-        height: 112.5px !important;
-    }
-    .react-player-here {
-        width: 200px !important;
-        height: 112.5px !important;
-    }
+  .react-player-poison {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
+  .react-player-shine {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
+  .react-player-apologize {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
+  .react-player-here {
+    width: 200px !important;
+    height: 112.5px !important;
+  }
 }
 
 nav {
-    z-index: 999;
-}
-
-.die {
-    margin-top: 55%;
+  z-index: 999;
 }
 
 .row {
-    align-items: flex-start;
+  align-items: flex-start;
 }
 
 .find-spotify {
-    position: -webkit-sticky;
+  position: -webkit-sticky;
 
-    position: sticky !important;
-    top: 50px;
-    margin-top: 10%;
+  position: sticky !important;
+  top: 50px;
+  margin-top: 10%;
 }
 
-
 .footer-flex {
-    display: flex;
+  display: flex;
+}
 
+.individual-single-with-description {
+  display: flex;
+  flex-direction: row;
+}
+
+.blurb-and-links {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  padding-top: 40px;
+}
+
+.single-wrapper .container {
+  display: flex;
+  width: 100%;
+  padding-top: 30px;
+}
+
+div.individual-single-with-description div {
+  padding: 20px;
+  text-align: center;
+}
+
+div.descriptions {
+  margin: auto;
+}
+
+div.single-wrapper {
+  margin-bottom: 100px;
+}
+
+/*Singles Page Responsiveness*/
+@media screen and (max-width: 1000px) {
+  .single-wrapper .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .single-wrapper .container div.blurb-and-links {
+    flex-direction: column;
+  }
+  .single-wrapper div.individual-single-with-description {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 525px) {
+    div.player iframe {
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    div.player iframe {
+        margin-left: -10%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    div.player iframe {
+        margin-left: -20%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    div.player iframe {
+        margin-left: -40%;
+    }
 }
