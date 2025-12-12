@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.532420ba.css",
-    "main.js": "/static/js/main.1bd73925.js",
+    "main.css": "/static/css/main.21ea6911.css",
+    "main.js": "/static/js/main.588da73b.js",
     "reactPlayerYouTube.js": "/static/js/reactPlayerYouTube.fdfda2ab.chunk.js",
     "reactPlayerSoundCloud.js": "/static/js/reactPlayerSoundCloud.48697662.chunk.js",
     "reactPlayerVimeo.js": "/static/js/reactPlayerVimeo.569e0e74.chunk.js",
@@ -17,17 +17,16 @@
     "reactPlayerFilePlayer.js": "/static/js/reactPlayerFilePlayer.ae5a737f.chunk.js",
     "reactPlayerPreview.js": "/static/js/reactPlayerPreview.3be7aa2e.chunk.js",
     "static/media/amazon.png": "/static/media/amazon.696d4cc23401782ba111.png",
-    "static/media/FunSongArt.jpg": "/static/media/FunSongArt.d121b8510cb088d5ae01.jpg",
+    "static/media/christmas-artwork.jpg": "/static/media/christmas-artwork.48c1f574de57c7d3ca7c.jpg",
     "static/media/Tidal.png": "/static/media/Tidal.f0e52edca4bda870edcc.png",
     "static/media/apple-music-logo.png": "/static/media/apple-music-logo.b9159a2ab9dbd3fb8059.png",
     "static/media/insta.png": "/static/media/insta.6af26da2c52ef9345a73.png",
     "static/media/kate2023.jpeg": "/static/media/kate2023.9ec5314153b7ec1eb317.jpeg",
-    "static/media/deezer.png": "/static/media/deezer.3cd4c5090f6e258edc0e.png",
     "static/media/spotify.png": "/static/media/spotify.acfce48c072e4c82df0b.png",
     "static/media/soundcloud.png": "/static/media/soundcloud.7b0c990d0c5698b18f11.png",
     "index.html": "/index.html",
-    "main.532420ba.css.map": "/static/css/main.532420ba.css.map",
-    "main.1bd73925.js.map": "/static/js/main.1bd73925.js.map",
+    "main.21ea6911.css.map": "/static/css/main.21ea6911.css.map",
+    "main.588da73b.js.map": "/static/js/main.588da73b.js.map",
     "reactPlayerYouTube.fdfda2ab.chunk.js.map": "/static/js/reactPlayerYouTube.fdfda2ab.chunk.js.map",
     "reactPlayerSoundCloud.48697662.chunk.js.map": "/static/js/reactPlayerSoundCloud.48697662.chunk.js.map",
     "reactPlayerVimeo.569e0e74.chunk.js.map": "/static/js/reactPlayerVimeo.569e0e74.chunk.js.map",
@@ -44,7 +43,7 @@
     "reactPlayerPreview.3be7aa2e.chunk.js.map": "/static/js/reactPlayerPreview.3be7aa2e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.532420ba.css",
-    "static/js/main.1bd73925.js"
+    "static/css/main.21ea6911.css",
+    "static/js/main.588da73b.js"
   ]
 }
