@@ -34,7 +34,7 @@ const Contact = () => {
         <label htmlFor="user-name">Name</label>
         <input type="text" id="user-name" name="user-name" />
         <label htmlFor="user-email">Email</label>
-        <input type="email" id="user-email" name="user-email" />
+        <input required type="email" id="user-email" name="user-email" />
         <label htmlFor="message">Message</label>
         <textarea name="message" id="message"/>
         <br></br>
