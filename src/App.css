@@ -23,7 +23,6 @@ body {
   margin: 0 auto;
 }
 
-
 .logos {
   margin-top: 20px;
   margin-bottom: 30px;
@@ -136,12 +135,11 @@ header {
   .descriptions {
     font-size: 15px;
   }
-
-  }
-  h2 {
-    font-size: large;
-  }
-  /* .apologize {
+}
+h2 {
+  font-size: large;
+}
+/* .apologize {
     margin-top: 70%;
   }
   .trouble {
@@ -168,9 +166,6 @@ header {
   .with-you {
     margin-top: 60%;
   } */
-
-
-
 
 @media screen and (max-width: 500px) {
   .instruments {
@@ -210,93 +205,12 @@ a:hover {
   background-color: #0275d8;
 }
 
-/* .videos {
-    margin-top: 25%;
-} */
-/* .dropdown {
-    background-color: #0275d8;
-} */
-
-/* .apologize-video {
-    margin-top: 170%;
-}
-
-.here-at-last-video {
-    margin-top: 50%;
-} */
-
 .rotten-live {
   margin-top: 90%;
 }
 
 .stay {
   margin-top: 90%;
-}
-
-@media screen and (max-width: 1200px) {
-  .poison {
-    margin-top: 50%;
-  }
-  .apologize {
-    margin-top: 60%;
-  }
-  .trouble {
-    margin-top: 65%;
-  }
-  .rotten {
-    margin-top: 65%;
-  }
-  .let-me-out {
-    margin-top: 75%;
-  }
-  .here-at-last {
-    margin-top: 55%;
-  }
-  .that-isnt-me {
-    margin-top: 55%;
-  }
-  .nothing-at-all {
-    margin-top: 65%;
-  }
-  .shine {
-    margin-top: 65%;
-  }
-  .with-you {
-    margin-top: 65%;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .player h2 {
-    font-size: 15px;
-  }
-  .apologize {
-    margin-top: 50%;
-  }
-  .trouble {
-    margin-top: 45%;
-  }
-  .rotten {
-    margin-top: 55%;
-  }
-  .let-me-out {
-    margin-top: 70%;
-  }
-  .here-at-last {
-    margin-top: 65%;
-  }
-  .that-isnt-me {
-    margin-top: 35%;
-  }
-  .nothing-at-all {
-    margin-top: 60%;
-  }
-  .shine {
-    margin-top: 40%;
-  }
-  .with-you {
-    margin-top: 40%;
-  }
 }
 
 @media screen and (max-width: 900px) {
@@ -948,6 +862,12 @@ div.single-wrapper {
   }
 }
 
+@media screen and (max-width: 800px) {
+  iframe {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 775px) {
   .single-wrapper .container div.blurb-and-links {
     flex-direction: column;
@@ -957,33 +877,9 @@ div.single-wrapper {
   }
 }
 
-@media screen and (max-width: 525px) {
-  div.player iframe {
-    margin-left: -5%;
-  }
-}
-
-@media screen and (max-width: 475px) {
-  div.player iframe {
-    margin-left: -10%;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  div.player iframe {
-    margin-left: -20%;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  div.player iframe {
-    margin-left: -40%;
-  }
-}
-
 /*Footer shrink*/
 div.footer img {
-  width: 40px;
+  max-width: 40px;
 }
 
 /*Contact Page */
@@ -1007,37 +903,39 @@ div.contact-container form .button {
 
 /*Mobile Navbar Cleanup*/
 div.navbar-collapse.collapse.show {
-    width: 100%;
-    padding-bottom: 15px;
+  width: 100%;
+  padding-bottom: 15px;
 }
 
-div.navbar-nav a{
-    color: white;
-    padding: 5px;
+div.navbar-nav a {
+  color: white;
+  padding: 5px;
 }
 
 nav div.container button {
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
-.navbar>.container {
-    background-color: #3287a8;
+.navbar > .container {
+  background-color: #3287a8;
 }
 
 div.nav-item.show.dropdown a {
-    color: black;
-    background-color: white;
-    border-radius: 5px;
+  color: black;
+  background-color: white;
+  border-radius: 5px;
 }
 
 /*End mobile nav update*/
 
 div.nav-item a {
-    color: white;
+  color: white;
 }
 
-div#mini-songs-container, div#commissions-container, div#videos-container {
-    margin-bottom: 100px;
+div#mini-songs-container,
+div#commissions-container,
+div#videos-container {
+  margin-bottom: 100px;
 }
 
 /*Accessiblity Updates 12/12/25*/
@@ -1048,3 +946,14 @@ div#mini-songs-container, div#commissions-container, div#videos-container {
   text-underline-offset: 4px;
 }
 
+@media (min-width: 992px) {
+  .container div.player {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 750px) {
+  div.player {
+    min-width: 300px;
+  }
+}

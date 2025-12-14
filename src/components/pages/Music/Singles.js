@@ -3,14 +3,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import ReactPlayer from "react-player";
-import spotify from "../../../assets/imgs/spotify.png";
-import apple from "../../../assets/imgs/apple-music-logo.png";
-import youtube from "../../../assets/imgs/youtube-music.png";
-import Tidal from "../../../assets/imgs/Tidal.png";
-import soundcloud from "../../../assets/imgs/soundcloud.png";
-import amazon from "../../../assets/imgs/amazon.png";
-// import deezer from "../../../assets/imgs/deezer.png";
+
 
 const Singles = () => {
   return (
