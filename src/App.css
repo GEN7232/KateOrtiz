@@ -15,8 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 12%;
-  width: 85%;
 }
 
 .player {
@@ -34,19 +32,7 @@ body {
   width: 60px;
 }
 
-h1 {
-  text-align: center;
-}
-
-h2 {
-  text-align: center;
-}
-
-h4 {
-  text-align: center;
-}
-
-h3 {
+h1, h2, h3, h4, p {
   text-align: center;
 }
 
@@ -79,30 +65,6 @@ h3 {
   text-align: center;
 }
 
-header {
-  margin-top: 4%;
-  padding-left: 4%;
-}
-
-/* .here-at-last {
-  margin-top: 40%;
-}
-
-.that-isnt-me {
-  margin-top: 30%;
-}
-
-.nothing-at-all {
-  margin-top: 40%;
-}
-
-.shine {
-  margin-top: 45%;
-}
-
-.with-you {
-  margin-top: 40%;
-} */
 
 .instruments {
   text-align: center;
@@ -824,20 +786,14 @@ nav {
   display: flex;
 }
 
-.individual-single-with-description {
-  display: flex;
-  flex-direction: row;
-}
 
 .blurb-and-links {
   display: flex;
   flex-direction: column;
   min-width: 300px;
-  padding-top: 40px;
 }
 
 .single-wrapper .container {
-  display: flex;
   width: 100%;
   padding-top: 30px;
 }

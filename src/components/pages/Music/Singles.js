@@ -1,25 +1,16 @@
 /* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-
 
 const Singles = () => {
   return (
     <div className="single-wrapper">
       <header>
         <h1>Songs released as singles</h1>
-        <h4>All songs were written and produced by Kate Ortiz</h4>
+        <p>All songs were written and produced by Kate Ortiz</p>
       </header>
-      <Container>
-        <Col className="blurb-and-links">
-          <p className="instruments">
-            Kate Ortiz sang and played guitar and piano on every song, and
-            played bass and drums on "Just Like Poison", "Here at Last",
-            "Rotten", "Let Me Out of My Cage", and "That Isn't Me".
-          </p>
-          <h2>
+      <div>
+        <div className="blurb-and-links">
+          <p>
             Find all these tracks and more on &nbsp;
             <a
               href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV?si=JMvbQvUpR--SliXZs29LwA"
@@ -39,11 +30,11 @@ const Singles = () => {
               Tidal,
             </a>
             &nbsp; and other streaming platforms.
-          </h2>
-        </Col>
+          </p>
+        </div>
 
-        <Row>
-          <Col>
+        <div>
+          <div>
             <div className="singles">
               <div className="individual-single-with-description">
                 <div className="player">
@@ -66,6 +57,27 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+              <div className="individual-single-with-description">
+                <div className="player">
+                  <h2>"Christmas (Go F Yourself) (Radio Edit)"</h2>
+                  <br></br>
+                  <iframe
+                    src="https://www.youtube.com/embed/MPnyhAiK55M?si=NoPB8rdEZNcPKJne"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+
+                <div className="die descriptions">
+                  <p>
+                    The Christmas breakup song you didn't know you needed.
+                    Co-produced and engineered by Genevieve Nelson.
+                  </p>
+                </div>
+              </div>              
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"A Really Fun Song About Wanting to Die"</h2>
@@ -304,9 +316,9 @@ const Singles = () => {
                 </div>
               </div>
             </div>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
