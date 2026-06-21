@@ -31,29 +31,29 @@ function ColorSchemesExample() {
         <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
 
-              <Nav.Link as={NavLink} to="/" end>
+              <Nav.Link as={NavLink} to="/" end onClick={() => setExpanded(false)}>
                 Home
               </Nav.Link>
 
-              <Nav.Link as={NavLink} to="/contact">
+              <Nav.Link as={NavLink} to="/contact" onClick={() => setExpanded(false)}>
                 Contact
               </Nav.Link>
 
               <NavDropdown title="Music" id="basic-nav-dropdown">
 
-                <NavDropdown.Item as={NavLink} to="/singles">
+                <NavDropdown.Item as={NavLink} to="/singles" onClick={() => setExpanded(false)}>
                   Singles
                 </NavDropdown.Item>
 
-                <NavDropdown.Item as={NavLink} to="/commissions">
+                <NavDropdown.Item as={NavLink} to="/commissions" onClick={() => setExpanded(false)}>
                   Commissions
                 </NavDropdown.Item>
 
-                <NavDropdown.Item as={NavLink} to="/mini-songs">
+                <NavDropdown.Item as={NavLink} to="/mini-songs" onClick={() => setExpanded(false)}>
                   Mini Songs
                 </NavDropdown.Item>
 
-                <NavDropdown.Item as={NavLink} to="/videos">
+                <NavDropdown.Item as={NavLink} to="/videos" onClick={() => setExpanded(false)}>
                   Videos
                 </NavDropdown.Item>
 
