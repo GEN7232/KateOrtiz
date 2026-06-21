@@ -46,7 +46,7 @@ export const Footer = () => {
               </a>
             </Container>
           </Container>
-          <small className="text-center">&copy; Kate Ortiz 2025</small>
+          <small className="text-center">&copy; Kate Ortiz 2026</small>
         </Container>
       </Navbar>
     </div>

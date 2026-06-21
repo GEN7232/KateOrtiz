@@ -92,7 +92,7 @@ const Singles = () => {
                   <h2>"Just Like Poison"</h2>
                   <br></br>
                   <iframe
-                    src="https://www.youtube.com/embed/FnY21zutWho?si=s6jjwUNCJSCQWJV1"
+                    src="https://www.youtube.com/embed/XlJEfVw0Ypc?si=Jjl9O3ZnrJVTU8ys"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

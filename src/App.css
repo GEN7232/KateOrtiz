@@ -957,3 +957,14 @@ div#videos-container {
     min-width: 300px;
   }
 }
+
+div#latest-release-container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px 0;
+}
+
+div#latest-release-container iframe {
+  width: 70vw;
+  aspect-ratio: 16 / 9;
+}
