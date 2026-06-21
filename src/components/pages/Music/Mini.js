@@ -10,23 +10,21 @@ const Mini = () => {
       <br></br>
       <h1>Mini Songs</h1>
       <br></br>
-      <h4 className="mini-title">
+      <p className="mini-title">
         Short loop based songs pefect for the backing track to your video or
         other creative project!
-      </h4>
+      </p>
       <Container>
         <Row>
           <Col>
             <br></br>
-            <br></br>
-            <br></br>
             <div>
               <h2>"Galactic Shimmer"</h2>
               <br></br>
-              <h4 className="mini-text">
+              <p className="mini-text">
                 A sparkly synth meets a grooving bass and drum beat for cool,
                 but also kind of weird vibes.
-              </h4>
+              </p>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -37,17 +35,14 @@ const Mini = () => {
                 />
               </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <hr></hr>
             <div>
               <h2>"Final Boss"</h2>
               <br></br>
-              <h4 className="mini-text">
+              <p className="mini-text">
                 A driving bass with hard rock drums meet an out of this world
                 synth lead.
-              </h4>
+              </p>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -58,16 +53,13 @@ const Mini = () => {
                 />
               </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+<hr></hr>
             <div>
               <h2>"Dramatic Orchestra"</h2>
               <br></br>
-              <h4 className="mini-text">
+              <p className="mini-text">
                 A lush and emotional piece featuring strings.
-              </h4>
+              </p>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -78,16 +70,13 @@ const Mini = () => {
                 />
               </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+<hr></hr>
             <div>
               <h2>"Innovation"</h2>
               <br></br>
-              <h4 className="mini-text">
+              <p className="mini-text">
                 A synthy kick-clap song with some dreamy pads.
-              </h4>
+              </p>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -98,17 +87,14 @@ const Mini = () => {
                 />
               </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <hr></hr>
             <div>
               <h2>"Jungle Fun"</h2>
               <br></br>
-              <h4 className="mini-text">
+              <p className="mini-text">
                 A bouncy tune featuring marimba and as well as unpitched
                 percussion.
-              </h4>
+              </p>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer
@@ -119,17 +105,14 @@ const Mini = () => {
                 />
               </div>
             </div>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            <hr></hr> 
             <div>
               <h2>"Viking Battle"</h2>
               <br></br>
-              <h4 className="mini-text">
+              <p className="mini-text">
                 An epic combination of today's synth sounds and music of the
                 past.
-              </h4>
+              </p>
               <br></br>
               <div className="player-wrapper">
                 <ReactPlayer

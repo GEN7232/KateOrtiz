@@ -51,10 +51,7 @@ const Singles = () => {
                 </div>
 
                 <div className="die descriptions">
-                  <p>
-                    The Christmas breakup song you didn't know you needed.
-
-                  </p>
+                  <p>The Christmas breakup song you didn't know you needed.</p>
                 </div>
               </div>
               <hr></hr>
@@ -73,13 +70,11 @@ const Singles = () => {
                 </div>
 
                 <div className="die descriptions">
-                  <p>
-                    The same Christmas song, but sqeaky clean.
-                  </p>
+                  <p>The same Christmas song, but sqeaky clean.</p>
                 </div>
-              </div>   
-                                   <hr></hr>
-    
+              </div>
+              <hr></hr>
+
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"A Really Fun Song About Wanting to Die"</h2>
@@ -96,11 +91,12 @@ const Singles = () => {
 
                 <div className="descriptions">
                   <p>
-                    A modern ska song with attitude. Kate feels better now by the way...
+                    A modern ska song with attitude. Kate feels better now by
+                    the way...
                   </p>
                 </div>
               </div>
-                            <hr></hr>
+              <hr></hr>
 
               <div className="individual-single-with-description">
                 <div className="player">
@@ -118,11 +114,12 @@ const Singles = () => {
 
                 <div className="descriptions">
                   <p>
-                    A spacey dark pop-rock song inspired by semi-sleepless nights and the hypnagagic state.
+                    A spacey dark pop-rock song inspired by semi-sleepless
+                    nights and the hypnagagic state.
                   </p>
                 </div>
               </div>
-                            <hr></hr>
+              <hr></hr>
 
               <div className="individual-single-with-description">
                 <div className="player">
@@ -141,12 +138,12 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     An exercise in what Kate Ortiz would write if she were
-                    working with Kelly Clarkson, "Apologize" is an abosulte pop-rock
-                    banger.
+                    working with Kelly Clarkson, "Apologize" is an abosulte
+                    pop-rock banger.
                   </p>
                 </div>
               </div>
-                            <hr></hr>
+              <hr></hr>
 
               <div className="individual-single-with-description">
                 <div className="player">
@@ -192,7 +189,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
-                            <hr></hr>
+              <hr></hr>
 
               <div className="individual-single-with-description">
                 <div className="player">
@@ -215,7 +212,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
-                            <hr></hr>
+              <hr></hr>
 
               <div className="individual-single-with-description">
                 <div className="player">

@@ -103,35 +103,8 @@ header {
   }
 }
 h2 {
-  font-size: large;
+  font-size: 1.8em;
 }
-/* .apologize {
-    margin-top: 70%;
-  }
-  .trouble {
-    margin-top: 65%;
-  }
-  .rotten {
-    margin-top: 65%;
-  }
-  .let-me-out {
-    margin-top: 65%;
-  }
-  .here-at-last {
-    margin-top: 60%;
-  }
-  .that-isnt-me {
-    margin-top: 60%;
-  }
-  .nothing-at-all {
-    margin-top: 55%;
-  }
-  .shine {
-    margin-top: 60%;
-  }
-  .with-you {
-    margin-top: 60%;
-  } */
 
 @media screen and (max-width: 500px) {
   .instruments {
@@ -142,29 +115,8 @@ h2 {
   }
 }
 
-/* #apple {
-    width: 35%;
-} */
-
-/* #youtube-music {
-    width: 23%;
-} */
-/* 
-a:hover {
-    cursor: pointer;
-} */
-
-/* .react-player {
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 4%;
-} */
-
 .podcasts {
-  margin-top: 4%;
+  margin-top: 25px;
 }
 
 .button {
