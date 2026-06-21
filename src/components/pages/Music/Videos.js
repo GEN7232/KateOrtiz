@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import ReactPlayer from "react-player";
 
 const Videos = () => {
@@ -9,16 +8,32 @@ const Videos = () => {
     <div id="videos-container">
       <header>
         <h1 id="videos-h1">Videos of Kate's Music</h1>
-        <h4 id="h4">
+        <h2 id="h4">
           Subscribe to her{" "}
           <a href="https://www.youtube.com/channel/UCBZIeGh0Am7WLYvNBfbK0Nw">
             Youtube Channel
           </a>
-        </h4>
+        </h2>
       </header>
       <Container>
         <Row>
           <div className="videos">
+            <div className="videos-flex">
+              <div className="player-wrapper">
+                <h2>"Just Like Poison" Lyric Video</h2>
+                <ReactPlayer
+                  className="react-player-poison"
+                  url="https://www.youtube.com/watch?v=XlJEfVw0Ypc"
+                  height="50%"
+                  width="50%"
+                />
+              </div>
+              <div className="poison-video">
+                <p>
+                  Vibey lyric video for "Just Like Poison"
+                </p>
+              </div>
+            </div>            
             <div className="videos-flex">
               <div className="player-wrapper">
                 <h2>"Just Like Poison" Live</h2>

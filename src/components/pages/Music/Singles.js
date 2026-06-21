@@ -57,6 +57,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+              <hr></hr>
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Christmas (Go F Yourself) (Radio Edit)"</h2>
@@ -76,7 +77,9 @@ const Singles = () => {
                     The same Christmas song, but sqeaky clean.
                   </p>
                 </div>
-              </div>              
+              </div>   
+                                   <hr></hr>
+    
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"A Really Fun Song About Wanting to Die"</h2>
@@ -97,6 +100,8 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+                            <hr></hr>
+
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Just Like Poison"</h2>
@@ -117,6 +122,8 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+                            <hr></hr>
+
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Apologize"</h2>
@@ -139,6 +146,8 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+                            <hr></hr>
+
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Trouble"</h2>
@@ -160,6 +169,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+              <hr></hr>
 
               <div className="individual-single-with-description">
                 <div className="player">
@@ -182,6 +192,8 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+                            <hr></hr>
+
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Let Me Out of My Cage"</h2>
@@ -203,6 +215,8 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+                            <hr></hr>
+
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Here at Last"</h2>
@@ -224,6 +238,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+              <hr></hr>
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"That Isn't Me"</h2>
@@ -245,6 +260,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+              <hr></hr>
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Nothing At All"</h2>
@@ -266,6 +282,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+              <hr></hr>
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"Shine"</h2>
@@ -287,6 +304,7 @@ const Singles = () => {
                   </p>
                 </div>
               </div>
+              <hr></hr>
               <div className="individual-single-with-description">
                 <div className="player">
                   <h2>"With You"</h2>
