@@ -53,7 +53,7 @@ const Singles = () => {
                 <div className="die descriptions">
                   <p>
                     The Christmas breakup song you didn't know you needed.
-                    Co-produced and engineered by Genevieve Nelson.
+
                   </p>
                 </div>
               </div>
@@ -73,8 +73,7 @@ const Singles = () => {
 
                 <div className="die descriptions">
                   <p>
-                    The Christmas breakup song you didn't know you needed.
-                    Co-produced and engineered by Genevieve Nelson.
+                    The same Christmas song, but sqeaky clean.
                   </p>
                 </div>
               </div>              
@@ -94,8 +93,7 @@ const Singles = () => {
 
                 <div className="descriptions">
                   <p>
-                    A modern ska song engineered and co-produced by Genevieve
-                    Nelson. Kate feels better now by the way...
+                    A modern ska song with attitude. Kate feels better now by the way...
                   </p>
                 </div>
               </div>
@@ -115,8 +113,7 @@ const Singles = () => {
 
                 <div className="descriptions">
                   <p>
-                    A spacey dark pop-rock song engineered and co-produced by
-                    Genevieve Nelson. It was inspired by the hypnagagic state.
+                    A spacey dark pop-rock song inspired by semi-sleepless nights and the hypnagagic state.
                   </p>
                 </div>
               </div>
@@ -137,8 +134,8 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     An exercise in what Kate Ortiz would write if she were
-                    working with Kelly Clarkson, "Apologize" is a pop-rock
-                    banger engineered by Jeff Kalemba.
+                    working with Kelly Clarkson, "Apologize" is an abosulte pop-rock
+                    banger.
                   </p>
                 </div>
               </div>
@@ -159,7 +156,7 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     An homage to Kate Ortiz's latina roots while struggling with
-                    personal identity. It was engienered by Jeff Kalemba.
+                    personal identity.
                   </p>
                 </div>
               </div>
@@ -181,8 +178,7 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     A driving ballad with striking horns, powerful vocals and a
-                    piano reminscient of the past. "Rotten" was engineered by
-                    Genevieve Nelson.
+                    piano reminscient of the past.
                   </p>
                 </div>
               </div>
@@ -203,7 +199,7 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     A synthy dark pop song featuring irregular percussion about
-                    self-discovery. Engineered by Genevieve Nelson.
+                    self-discovery.
                   </p>
                 </div>
               </div>
@@ -212,7 +208,7 @@ const Singles = () => {
                   <h2>"Here at Last"</h2>
                   <br></br>
                   <iframe
-                    src="https://www.youtube.com/embed/ceSz-IH-mR8?si=2i8MQ44ZWAxfFePp"
+                    src="https://www.youtube.com/embed/WOcrQfD_mFg?si=XlwMDifPKnaG_igP"
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -224,8 +220,7 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     A ballad utiltizing some amazing vintage Silvertone guitars
-                    about finally coming to terms with who you are. Made Maria
-                    cry. Engineered by Genevieve Nelson
+                    about finally coming to terms with who you are.
                   </p>
                 </div>
               </div>
@@ -246,7 +241,7 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     A devastingly melancholy song featuring some pretty cool sub
-                    bass licks. Engineered by Genevieve Nelson
+                    bass licks.
                   </p>
                 </div>
               </div>
@@ -268,7 +263,6 @@ const Singles = () => {
                   <p>
                     A rock ballad exploring the inner workings of a person that
                     does not know how to fully express themselves emotionally.
-                    Engineered by Jeff Kalemba.
                   </p>
                 </div>
               </div>
@@ -289,7 +283,7 @@ const Singles = () => {
                 <div className="descriptions">
                   <p>
                     An alternative rock exercise in what Kate thought she would
-                    write if she worked for Disney. Engineered by Jeff Kalemba.
+                    write if she worked for Disney.
                   </p>
                 </div>
               </div>
@@ -311,7 +305,7 @@ const Singles = () => {
                   <p>
                     Reminscient of mid 2000s emo rock, "With You" tells a story
                     about someone trying to make things work with a partner
-                    despite everyone's flaws. Engineered by Jeff Kalemba.
+                    despite everyone's flaws.
                   </p>
                 </div>
               </div>

@@ -77,6 +77,10 @@ h1, h2, h3, h4, p {
   margin-top: 4%;
 }
 
+header {
+  padding: 25px;
+}
+
 .bio {
   width: 80%;
   margin: 4% 10% 10% 10%;
