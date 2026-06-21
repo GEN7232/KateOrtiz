@@ -1,6 +1,4 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
 import ReactPlayer from "react-player";
 
 const Videos = () => {
@@ -8,15 +6,14 @@ const Videos = () => {
     <div id="videos-container">
       <header>
         <h1 id="videos-h1">Videos of Kate's Music</h1>
-        <h2 id="h4">
+        <p>
           Subscribe to her{" "}
           <a href="https://www.youtube.com/channel/UCBZIeGh0Am7WLYvNBfbK0Nw">
             Youtube Channel
           </a>
-        </h2>
+        </p>
       </header>
-      <Container>
-        <Row>
+        <div>
           <div className="videos">
             <div className="videos-flex">
               <div className="player-wrapper">
@@ -33,7 +30,8 @@ const Videos = () => {
                   Vibey lyric video for "Just Like Poison"
                 </p>
               </div>
-            </div>            
+            </div>    
+            <hr></hr>        
             <div className="videos-flex">
               <div className="player-wrapper">
                 <h2>"Just Like Poison" Live</h2>
@@ -53,7 +51,7 @@ const Videos = () => {
                 </p>
               </div>
             </div>
-
+<hr></hr>
             <div class="videos-flex">
               <div className="player-wrapper">
                 <h2>"Shine" Live</h2>
@@ -72,6 +70,7 @@ const Videos = () => {
                 </p>
               </div>
             </div>
+            <hr></hr>
             <div className="videos-flex">
               <div className="player-wrapper">
                 <h2>"Apologize" Live</h2>
@@ -90,28 +89,8 @@ const Videos = () => {
                 </p>
               </div>
             </div>
-
-            {/* <div className="videos-flex">
-              <br></br>
-              <div className="player-wrapper">
-                <h2>"Here at Last" Music Video</h2>
-                <ReactPlayer
-                  className="react-player-here"
-                  url="https://www.youtube.com/watch?v=ceSz-IH-mR8"
-                  height="50%"
-                  width="50%"
-                />
-              </div>
-              <div className="here-at-last-video">
-                <p>
-                  Music Video by TG Gainey Productions as part of his
-                  Picks-A-Lation Creation Series
-                </p>
-              </div>
-            </div> */}
           </div>
-        </Row>
-      </Container>
+        </div>
     </div>
   );
 };

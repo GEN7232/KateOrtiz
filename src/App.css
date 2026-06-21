@@ -6,7 +6,7 @@ body {
 .katepic {
   display: flex;
   width: 80%;
-  margin: 0 auto;
+  margin: 25px auto;
   justify-content: center;
 }
 
@@ -36,45 +36,9 @@ h1, h2, h3, h4, p {
   text-align: center;
 }
 
-.poison {
-  margin-top: 40%;
-}
-
 .descriptions {
   font-size: 22px;
   text-align: center;
-}
-
-.apologize {
-  margin-top: 35%;
-}
-
-.trouble {
-  margin-top: 40%;
-}
-
-.rotten {
-  margin-top: 45%;
-}
-
-.let-me-out {
-  margin-top: 40%;
-}
-
-.title {
-  text-align: center;
-}
-
-
-.instruments {
-  text-align: center;
-  font-size: 23px;
-  margin-top: -2%;
-  margin-bottom: 10%;
-}
-
-.katepic {
-  margin-top: 4%;
 }
 
 header {
@@ -95,24 +59,13 @@ header {
 }
 
 @media screen and (max-width: 1400px) {
-  .instruments {
-    font-size: 18px;
-  }
   .descriptions {
     font-size: 15px;
   }
 }
+
 h2 {
   font-size: 1.8em;
-}
-
-@media screen and (max-width: 500px) {
-  .instruments {
-    font-size: 12px;
-  }
-  h2 {
-    font-size: medium;
-  }
 }
 
 .podcasts {
@@ -123,140 +76,6 @@ h2 {
   background-color: #0275d8;
 }
 
-.rotten-live {
-  margin-top: 90%;
-}
-
-.stay {
-  margin-top: 90%;
-}
-
-@media screen and (max-width: 900px) {
-  .descriptions {
-    font-size: 12px;
-  }
-  .poison {
-    margin-top: 65%;
-  }
-  .apologize {
-    margin-top: 85%;
-  }
-  .trouble {
-    margin-top: 90%;
-  }
-  .rotten {
-    margin-top: 85%;
-  }
-  .let-me-out {
-    margin-top: 95%;
-  }
-  .here-at-last {
-    margin-top: 85%;
-  }
-  .that-isnt-me {
-    margin-top: 85%;
-  }
-  .nothing-at-all {
-    margin-top: 85%;
-  }
-  .shine {
-    margin-top: 85%;
-  }
-  .with-you {
-    margin-top: 70%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .poison {
-    margin-top: 90%;
-  }
-  .apologize {
-    margin-top: 80%;
-  }
-  .trouble {
-    margin-top: 70%;
-  }
-  .rotten {
-    margin-top: 95%;
-  }
-  .let-me-out {
-    margin-top: 100%;
-  }
-  .here-at-last {
-    margin-top: 85%;
-  }
-  .that-isnt-me {
-    margin-top: 85%;
-  }
-  .nothing-at-all {
-    margin-top: 95%;
-  }
-  .shine {
-    margin-top: 60%;
-  }
-  .with-you {
-    margin-top: 60%;
-  }
-}
-
-@media screen and (max-width: 574px) {
-  .poison {
-    margin-top: 90%;
-  }
-  .apologize {
-    margin-top: 80%;
-  }
-  .trouble {
-    margin-top: 70%;
-  }
-  .rotten {
-    margin-top: 95%;
-  }
-  .let-me-out {
-    margin-top: 100%;
-  }
-  .here-at-last {
-    margin-top: 85%;
-  }
-  .that-isnt-me {
-    margin-top: 85%;
-  }
-  .nothing-at-all {
-    margin-top: 100%;
-  }
-  .shine {
-    margin-top: 60%;
-  }
-  .with-you {
-    margin-top: 70%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .singles {
-    margin-left: 9%;
-  }
-  .player h2 {
-    font-size: 22px;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .mobile {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .desktop {
-    display: none;
-  }
-  .singles {
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 
 .descriptions2 {
   margin-top: 10%;
@@ -415,42 +234,6 @@ h2 {
   margin-left: 5%;
 }
 
-@media screen and (max-width: 1399px) {
-  .mini-descriptions2 {
-    margin-top: 55%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .mini-text {
-    font-size: 16px;
-  }
-  .mini-descriptions {
-    margin-top: 55%;
-  }
-  .mini-descriptions2 {
-    margin-top: 60%;
-  }
-}
-
-@media screen and (max-width: 415px) {
-  .mini-descriptions2 {
-    margin-top: 40%;
-  }
-}
-
-@media screen and (max-width: 399px) {
-  .mini-descriptions2 {
-    margin-top: 35%;
-  }
-}
-
-@media screen and (max-width: 368px) {
-  .mini-descriptions2 {
-    margin-top: 25%;
-  }
-}
-
 .mini-title {
   width: 80%;
   margin-left: 10%;
@@ -460,24 +243,6 @@ h2 {
   text-align: center;
 }
 
-#presave {
-  text-align: center;
-}
-
-#presave-text {
-  text-align: center;
-  width: 50%;
-  margin: auto;
-  color: white;
-  text-decoration: underline #3287a8;
-  font-size: 18pt;
-}
-
-#presave img {
-  margin: auto;
-  margin-top: 20px;
-  height: 200px;
-}
 
 .navbar-collapse {
   background-color: #3287a8;
@@ -534,192 +299,12 @@ a {
   text-decoration: underline #3287a8;
 }
 
-@media screen and (max-width: 850px) {
-  #presave-text {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  #presave-text {
-    font-size: 14px;
-  }
-  #latest-icon-container a img {
-    width: 40px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  #latest-icon-container a img {
-    width: 30px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  #latest-icon-container a img {
-    width: 30px;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  #latest-icon-container a img {
-    width: 20px;
-  }
-}
-
-.react-player-poison {
-  margin: 0 auto 40px auto;
-  width: 500px !important;
-  height: 281.25px !important;
-}
-
-.react-player-shine {
-  margin: 0 auto 40px auto;
-  width: 500px !important;
-  height: 281.25px !important;
-}
-
-.react-player-apologize {
-  margin: 0 auto 40px auto;
-  width: 500px !important;
-  height: 281.25px !important;
-}
-
-.react-player-here {
-  /* margin: 0 auto 40px auto; */
-  width: 500px !important;
-  height: 281.25px !important;
-}
-
-#h4 {
-  margin-bottom: 50px;
-}
-
 #videos-h1 {
   margin-bottom: 20px;
 }
 
-.poison-video {
-  margin-top: 100px;
-}
-
-.videos-flex {
-  display: flex;
-}
-
-.shine-video {
-  margin-top: 8%;
-}
-
-.apologize-video {
-  margin-top: 8%;
-}
-
-.here-at-last-video {
-  margin-top: 8%;
-}
-
 .player-wrapper h2 {
   margin-bottom: 15px;
-}
-
-@media screen and (max-width: 1000px) {
-  .videos-flex {
-    flex-direction: column;
-  }
-  .poison-video {
-    margin: 0;
-    text-align: center;
-  }
-  .shine-video {
-    margin: 0;
-    text-align: center;
-  }
-  .apologize-video {
-    margin: 0;
-    text-align: center;
-  }
-  .here-at-last-video {
-    margin: 0;
-    text-align: center;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .react-player-poison {
-    width: 350px !important;
-    height: 196.875px !important;
-  }
-  .react-player-shine {
-    width: 350px !important;
-    height: 196.875px !important;
-  }
-  .react-player-apologize {
-    width: 350px !important;
-    height: 196.875px !important;
-  }
-  .react-player-here {
-    width: 350px !important;
-    height: 196.875px !important;
-    margin: 0 auto 40px auto;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .react-player-poison {
-    width: 300px !important;
-    height: 168.75px !important;
-  }
-  .react-player-shine {
-    width: 300px !important;
-    height: 168.75px !important;
-  }
-  .react-player-apologize {
-    width: 300px !important;
-    height: 168.75px !important;
-  }
-  .react-player-here {
-    width: 300px !important;
-    height: 168.75px !important;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .react-player-poison {
-    width: 250px !important;
-    height: 140.625px !important;
-  }
-  .react-player-shine {
-    width: 250px !important;
-    height: 140.625px !important;
-  }
-  .react-player-apologize {
-    width: 250px !important;
-    height: 140.625px !important;
-  }
-  .react-player-here {
-    width: 250px !important;
-    height: 140.625px !important;
-  }
-}
-
-@media screen and (max-width: 325px) {
-  .react-player-poison {
-    width: 200px !important;
-    height: 112.5px !important;
-  }
-  .react-player-shine {
-    width: 200px !important;
-    height: 112.5px !important;
-  }
-  .react-player-apologize {
-    width: 200px !important;
-    height: 112.5px !important;
-  }
-  .react-player-here {
-    width: 200px !important;
-    height: 112.5px !important;
-  }
 }
 
 nav {
@@ -767,25 +352,10 @@ div.single-wrapper {
   margin-bottom: 100px;
 }
 
-/*Singles Page Responsiveness*/
-@media screen and (max-width: 1000px) {
-  .single-wrapper .container {
-    flex-direction: column;
-  }
-}
 
 @media screen and (max-width: 800px) {
   iframe {
     width: 100%;
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .single-wrapper .container div.blurb-and-links {
-    flex-direction: column;
-  }
-  .single-wrapper div.individual-single-with-description {
-    flex-direction: column;
   }
 }
 
