@@ -1,5 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
+import "./Videos.css";
 
 const Videos = () => {
   return (
@@ -19,10 +20,10 @@ const Videos = () => {
             <div className="player-wrapper">
               <h2>"Just Like Poison" Lyric Video</h2>
               <ReactPlayer
-                className="react-player-poison"
+                className="react-player react-player-poison"
                 url="https://www.youtube.com/watch?v=XlJEfVw0Ypc"
-                height="auto"
-                width="80%"
+                height="100%"
+                width="100%"
               />
             </div>
             <div className="poison-video">
@@ -34,10 +35,10 @@ const Videos = () => {
             <div className="player-wrapper">
               <h2>"Just Like Poison" Live</h2>
               <ReactPlayer
-                className="react-player-poison"
+                className="react-player react-player-poison"
                 url="https://www.youtube.com/watch?v=eVgK0L1-dr0"
-                height="auto"
-                width="80%"
+                height="100%"
+                width="100%"
               />
             </div>
             <div className="poison-video">
@@ -50,14 +51,14 @@ const Videos = () => {
             </div>
           </div>
           <hr></hr>
-          <div class="videos-flex">
+          <div className="videos-flex">
             <div className="player-wrapper">
               <h2>"Shine" Live</h2>
               <ReactPlayer
-                className="react-player-shine"
+                className="react-player react-player-shine"
                 url="https://www.youtube.com/watch?v=LPZT373hIKc"
-                height="auto"
-                width="80%"
+                height="100%"
+                width="100%"
               />
             </div>
             <div className="shine-video">
@@ -73,10 +74,10 @@ const Videos = () => {
             <div className="player-wrapper">
               <h2>"Apologize" Live</h2>
               <ReactPlayer
-                className="react-player-apologize"
+                className="react-player react-player-apologize"
                 url="https://www.youtube.com/watch?v=Z2fV8bj53C8"
-                height="auto"
-                width="80%"
+                height="100%"
+                width="100%"
               />
             </div>
             <div className="apologize-video">
