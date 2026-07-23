@@ -22,10 +22,10 @@ function Home() {
         <iframe
           src="https://www.youtube.com/embed/XlJEfVw0Ypc?si=Jjl9O3ZnrJVTU8ys"
           title="YouTube video player"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullsCcreen
         ></iframe>
       </div>
 

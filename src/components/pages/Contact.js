@@ -9,20 +9,20 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_y8szaoh",
-        "template_10xvf0i",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         form.current,
-        "Txo8nMBF9Z5sccG2Z"
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         (result) => {
           alert(
-            "You have successfully sent an email to the magnificent Kate Ortiz!"
+            "You have successfully sent an email to the magnificent Kate Ortiz!",
           );
         },
         (error) => {
           alert(error.text);
-        }
+        },
       );
   };
 
@@ -36,7 +36,7 @@ const Contact = () => {
         <label htmlFor="user-email">Email</label>
         <input required type="email" id="user-email" name="user-email" />
         <label htmlFor="message">Message</label>
-        <textarea name="message" id="message"/>
+        <textarea name="message" id="message" />
         <br></br>
         <input className="button" type="submit" value="Send" />
       </form>
