@@ -19,6 +19,7 @@ body {
 
 .player {
   margin: 0 auto;
+  text-align: center;
 }
 
 .logos {
@@ -451,6 +452,11 @@ div#latest-release-container iframe {
   aspect-ratio: 16 / 9;
 }
 
+.player iframe {
+  width: 80%;
+  aspect-ratio: 16 / 9;
+}
+
 .player-wrapper div {
   width: 80%;
   margin: 0 auto;
@@ -458,4 +464,17 @@ div#latest-release-container iframe {
 
 div.videos {
   padding: 10px;
+}
+
+div.descriptions {
+  padding: 20px;
+  font-size: 1em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+div.player h2 {
+  margin-bottom: 25px;
 }
