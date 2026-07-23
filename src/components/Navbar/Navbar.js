@@ -48,10 +48,6 @@ function ColorSchemesExample() {
                 <NavDropdown.Item as={NavLink} to="/commissions" onClick={() => setExpanded(false)}>
                   Commissions
                 </NavDropdown.Item>
-{/* 
-                <NavDropdown.Item as={NavLink} to="/mini-songs" onClick={() => setExpanded(false)}>
-                  Mini Songs
-                </NavDropdown.Item> */}
 
                 <NavDropdown.Item as={NavLink} to="/videos" onClick={() => setExpanded(false)}>
                   Videos
