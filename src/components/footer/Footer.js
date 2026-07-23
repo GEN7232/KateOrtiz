@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Navbar } from 'react-bootstrap';
-// import facebook from "../../assets/imgs/facebook.png";
 import insta from "../../assets/imgs/insta.png";
 import spotify from "../../assets/imgs/spotify.png";
 import Tidal from "../../assets/imgs/Tidal.png";
