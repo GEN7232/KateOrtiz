@@ -455,6 +455,7 @@ div#latest-release-container iframe {
 .player iframe {
   width: 80%;
   aspect-ratio: 16 / 9;
+  padding: 20px;
 }
 
 .player-wrapper div {
