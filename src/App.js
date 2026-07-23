@@ -25,7 +25,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/singles" element={<Singles />} />
             <Route path="/commissions" element={<Commissions />} />
-            <Route path="/mini-songs" element={<Mini />} />
+            {/* <Route path="/mini-songs" element={<Mini />} /> */}
             <Route path="/videos" element={<Videos />} />
             <Route path="*" element={<h1 className="display-2">Wrong page!</h1>} />            
           </Routes>
