@@ -21,7 +21,7 @@ const Contact = () => {
           );
         },
         (error) => {
-          alert(error.text);
+          alert("Email send failure:" + error.text);
         },
       );
   };
