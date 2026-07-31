@@ -16,6 +16,7 @@ export const Footer = () => {
                 rel="noreferrer"
                 href="https://www.instagram.com/iamkateortiz/?hl=en"
                 className="d-flex align-items-center p-0 text-dark"
+                aria-label="Click to open Kate's Instagram page in a new tab"
               >
                 <img alt="Instagram" src={insta}  />
               </a>
@@ -26,6 +27,7 @@ export const Footer = () => {
                 rel="noreferrer"
                 href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV"
                 className="d-flex align-items-center p-0 text-dark mt-1px"
+                aria-label="Click to open Kate's Spotify page in a new tab"
               >
                 <img alt="Spotify" src={spotify}/>
               </a>
@@ -36,6 +38,7 @@ export const Footer = () => {
                 rel="noreferrer"
                 href="https://tidal.com/browse/artist/21095604"
                 className="d-flex align-items-center p-0 text-dark"
+                aria-label="Click to open Kate's Tidal page in a new tab"
               >
                 <img
                   alt="Tidal"
