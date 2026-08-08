@@ -489,11 +489,12 @@ div#latest-release-links {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding: 10px;
+  padding: 50px 0;
 }
 
 div#latest-release-links a img {
-  width: 10vw;
+  padding: 5px;
+  width: 8vw;
     filter: drop-shadow(2px 2px 10px #3287a8)
             drop-shadow(-2px -2px 10px #3287a8)
             drop-shadow(2px 2px 10px #3287a8)
