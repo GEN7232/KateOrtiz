@@ -80,6 +80,7 @@ const Commissions = () => {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               />
+              <hr></hr>
             </div>
           </div>
         ))}
