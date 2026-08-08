@@ -5,10 +5,43 @@ import apple from "../../assets/imgs/apple-music-logo.png";
 import youtube from "../../assets/imgs/youtube-music.png";
 import Tidal from "../../assets/imgs/Tidal.png";
 import amazon from "../../assets/imgs/amazon.png";
+import bandcamp from "../../assets/imgs/bandcamp-button-square-black-512.png";
 
+const latestReleaseLinks = [
+  {
+    name: "Spotify",
+    url: "https://open.spotify.com/track/2DjXAdbISnB92bysn826db?si=50896983a66e4ef2",
+    imgSrc: spotify,
+  },
+  {
+    name: "Apple Music",
+    url: "https://music.apple.com/us/song/just-like-poison/1619797240",
+    imgSrc: apple,
+  },
+  {
+    name: "Bandcamp",
+    url: "https://kateortiz.bandcamp.com/track/just-like-poison",
+    imgSrc: bandcamp,
+  },
+  {
+    name: "Tidal",
+    url: "https://tidal.com/track/225370899/u",
+    imgSrc: Tidal,
+  },
+  {
+    name: "Youtube Music",
+    url: "https://youtu.be/XlJEfVw0Ypc?si=JkSb9XpVr5gibpfi",
+    imgSrc: youtube,
+  },
+  {
+    name: "Amazon Music",
+    url: "https://amazon.com/music/player/albums/B09Y6ZS79M?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_K83PdpDwFlyZVFD7zjb9PT4TR&trackAsin=B09Y6B1S4V",
+    imgSrc: amazon,
+  },
+];
 
 function Home() {
-  const latestTitleAltText = `Listen to "Just Like Poison"`
+  const latestTitleAltText = `Listen to "Just Like Poison"`;
   return (
     <div>
       <br></br>
@@ -29,65 +62,15 @@ function Home() {
         ></iframe>
       </div>
 
-      <div id="latest-icon-container">
-        <a
-          id="latest-spotify"
-          target="_blank"
-          rel="noreferrer"
-          href="https://open.spotify.com/track/2DjXAdbISnB92bysn826db?si=50896983a66e4ef2"
-        >
-          <img
-            alt={`${latestTitleAltText} on Spotify`}
-            src={spotify}
-          ></img>
-        </a>
-        <a
-          id="latest-apple"
-          target="_blank"
-          rel="noreferrer"
-          href="https://music.apple.com/us/song/just-like-poison/1619797240"
-        >
-          <img
-            alt={`${latestTitleAltText} on Apple Music`}
-            src={apple}
-          ></img>
-        </a>
-        <a
-          id="latest-tidal"
-          target="_blank"
-          rel="noreferrer"
-          href="https://tidal.com/track/225370899/u"
-        >
-          <img
-            alt={`${latestTitleAltText} on Tidal`}
-            src={Tidal}
-          ></img>
-        </a>
-        <a
-          id="latest-youtube"
-          target="_blank"
-          rel="noreferrer"
-          href="https://youtu.be/XlJEfVw0Ypc?si=JkSb9XpVr5gibpfi"
-        >
-          <img
-            alt={`${latestTitleAltText} on Youtube Music`}
-            src={youtube}
-          ></img>
-        </a>
-
-        <a
-          id="latest-amazon"
-          target="_blank"
-          rel="noreferrer"
-          href="https://amazon.com/music/player/albums/B09Y6ZS79M?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_K83PdpDwFlyZVFD7zjb9PT4TR&trackAsin=B09Y6B1S4V"
-        >
-          <img
-            alt={`${latestTitleAltText} on Amazon Music`}
-            src={amazon}
-          ></img>
-        </a>
-
+      <div id="latest-release-links">
+        {latestReleaseLinks.map((link) => (
+          <a
+            key={link.name} href={link.url} target="_blank" rel="noreferrer" title="Listen to Just Like Poison on {link.name}">
+            <img alt={`${latestTitleAltText} on ${link.name}`} src={link.imgSrc}></img>
+          </a>
+        ))}
       </div>
+
       <hr></hr>
       <img className="katepic" src={Kate} alt="Kate Ortiz"></img>
       <div className="bio">
