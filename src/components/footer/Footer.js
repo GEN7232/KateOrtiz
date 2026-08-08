@@ -1,58 +1,49 @@
 import React from "react";
-import { Container, Navbar } from 'react-bootstrap';
 import insta from "../../assets/imgs/insta.png";
 import spotify from "../../assets/imgs/spotify.png";
 import Tidal from "../../assets/imgs/Tidal.png";
+import BandCamp from "../../assets/imgs/bandcamp-button-square-black-512.png"
+
+const footerButtons = [
+  {
+    title: "Instagram",
+    url: "https://www.instagram.com/iamkateortiz/?hl=en",
+    img: insta,
+  },
+  {
+    title: "Spotify",
+    url: "https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV",
+    img: spotify,
+  },
+  {
+    title: "Tidal",
+    url: "https://tidal.com/browse/artist/21095604",
+    img: Tidal,
+  },
+  {
+    title: "Bandcamp",
+    url: "https://kateortiz.bandcamp.com/",
+    img: BandCamp,
+  },
+];
 
 export const Footer = () => {
   return (
     <div className="footer">
-      <Navbar>
-        <Container>
-          <Container className="footer-flex">
-            <Container>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://www.instagram.com/iamkateortiz/?hl=en"
-                className="d-flex align-items-center p-0 text-dark"
-                aria-label="Click to open Kate's Instagram page in a new tab"
-              >
-                <img alt="Instagram" src={insta}  />
-              </a>
-            </Container>
-            <Container>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV"
-                className="d-flex align-items-center p-0 text-dark mt-1px"
-                aria-label="Click to open Kate's Spotify page in a new tab"
-              >
-                <img alt="Spotify" src={spotify}/>
-              </a>
-            </Container>
-            <Container>
-              <a
-                target="_blank"
-                rel="noreferrer"
-                href="https://tidal.com/browse/artist/21095604"
-                className="d-flex align-items-center p-0 text-dark"
-                aria-label="Click to open Kate's Tidal page in a new tab"
-              >
-                <img
-                  alt="Tidal"
-                  src={Tidal}
-                  className="tidal-footer"
-                />
-              </a>
-            </Container>
-          </Container>
-          <small className="text-center">&copy; Kate Ortiz 2026</small>
-        </Container>
-      </Navbar>
+      {footerButtons.map((button) => (
+        <a
+          href={button.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          key={button.title}
+        >
+          <img src={button.img} alt={button.title} />
+        </a>
+      ))}
+      <span className="footer-text">© 2026 Kate Ortiz</span>
     </div>
   );
 };
+
 
 export default Footer;
