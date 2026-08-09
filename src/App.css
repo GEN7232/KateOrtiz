@@ -515,3 +515,14 @@ div#latest-release-links a img {
 
   
 }
+
+a#navColor {
+  color: white;
+  background-color: #3287a8;
+}
+
+@media screen and (max-width: 320px) {
+    a#navColor {
+        width: 100%
+    }
+};
