@@ -495,9 +495,23 @@ div#latest-release-links {
 div#latest-release-links a img {
   padding: 5px;
   width: 8vw;
-    filter: drop-shadow(2px 2px 10px #3287a8)
-            drop-shadow(-2px -2px 10px #3287a8)
-            drop-shadow(2px 2px 10px #3287a8)
-            drop-shadow(-2px -2px 10px #3287a8)
+    filter: drop-shadow(5px 5px 8px #3287a8)
+            drop-shadow(-5px -5px 8px #3287a8)
+            drop-shadow(5px 5px 8px #3287a8)
+            drop-shadow(-5px -5px 8px #3287a8)
             ;
+}
+
+@media screen and (max-width: 800px) {
+  div#latest-release-links a img {
+    filter: drop-shadow(2px 2px 3px #3287a8)
+            drop-shadow(-2px -2px 3px #3287a8)
+            drop-shadow(2px 2px 3px #3287a8)
+            drop-shadow(-2px -2px 3px #3287a8)
+            ;
+    padding: 0;
+    width: 10vw;
+  }
+
+  
 }
