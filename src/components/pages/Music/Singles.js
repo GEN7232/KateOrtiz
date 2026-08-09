@@ -1,5 +1,25 @@
 import React from "react";
 
+const blurbAndLinks = [
+    {
+      title: "Spotify",
+      url: "https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV?si=JMvbQvUpR--SliXZs29LwA",
+    },
+    {
+      title: "Apple Music",
+      url: "https://music.apple.com/us/artist/kate-ortiz/1529541219",
+    },
+    {
+      title: "Tidal",
+      url: "https://tidal.com/browse/artist/21095604",
+    },
+    {
+      title: "Bandcamp",
+      url: "https://kateortiz.bandcamp.com/",
+    }
+
+]
+
 const singles = [
   {
     title: "“Christmas (Go Fuck Yourself)”",
@@ -90,31 +110,21 @@ const Singles = () => {
         <div className="blurb-and-links">
           <p>
             Find all these tracks and more on &nbsp;
-            <a
-              href="https://open.spotify.com/artist/1q2b1sTWYODo34HBGOt1UV?si=JMvbQvUpR--SliXZs29LwA"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Spotify,
-            </a>
-            &nbsp;
-            <a
-              href="https://music.apple.com/us/artist/kate-ortiz/1529541219"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Apple Music,
-            </a>
-            &nbsp;
-            <a
-              href="https://tidal.com/browse/artist/21095604"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Tidal,
-            </a>
-            &nbsp; and other streaming platforms.
+            {blurbAndLinks.map((link, index) => (
+              <span key={link.title}>
+                <a
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {link.title}
+                </a>
+                {index < blurbAndLinks.length && ", "}
+              </span>
+            ))}
+            and other streaming platforms.
           </p>
+
         </div>
 
         <div>
